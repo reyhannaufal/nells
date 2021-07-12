@@ -89,7 +89,7 @@ export default function Footer() {
                     <div className='grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2'>
                         <div className='mx-auto md:mx-0 md:grid md:grid-cols-2 md:gap-8'>
                             <div>
-                                <h3 className='text-sm font-semibold tracking-wider text-white uppercase'>
+                                <h3 className='text-sm font-bold tracking-wider text-white uppercase'>
                                     Perusahaan
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
@@ -97,7 +97,7 @@ export default function Footer() {
                                         <li key={item.name}>
                                             <a
                                                 href={item.href}
-                                                className='text-base text-white hover:text-gray-200'
+                                                className='text-base font-light text-white hover:text-gray-200'
                                             >
                                                 {item.name}
                                             </a>
@@ -106,7 +106,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className='mt-12 md:mt-0'>
-                                <h3 className='text-sm font-semibold tracking-wider text-white uppercase'>
+                                <h3 className='text-sm font-bold tracking-wider text-white uppercase'>
                                     Edukasi
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
@@ -114,7 +114,7 @@ export default function Footer() {
                                         <li key={item.name}>
                                             <a
                                                 href={item.href}
-                                                className='text-base text-white hover:text-gray-200'
+                                                className='text-base font-light text-white hover:text-gray-200'
                                             >
                                                 {item.name}
                                             </a>
@@ -125,7 +125,7 @@ export default function Footer() {
                         </div>
                         <div className='mx-auto md:mx-0 md:grid md:grid-cols-2 md:gap-8'>
                             <div>
-                                <h3 className='text-sm font-semibold tracking-wider text-white uppercase'>
+                                <h3 className='text-sm font-bold tracking-wider text-white uppercase'>
                                     Produk
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
@@ -133,7 +133,7 @@ export default function Footer() {
                                         <li key={item.name}>
                                             <a
                                                 href={item.href}
-                                                className='text-base text-white hover:text-gray-200'
+                                                className='text-base font-light text-white hover:text-gray-200'
                                             >
                                                 {item.name}
                                             </a>
@@ -142,7 +142,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className='mt-12 md:mt-0'>
-                                <h3 className='text-sm font-semibold tracking-wider text-white uppercase'>
+                                <h3 className='text-sm font-bold tracking-wider text-white uppercase'>
                                     Media Sosial
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
@@ -150,7 +150,7 @@ export default function Footer() {
                                         <li key={item.name}>
                                             <a
                                                 href={item.href}
-                                                className='text-base text-white hover:text-gray-200'
+                                                className='text-base font-light text-white hover:text-gray-200'
                                             >
                                                 {item.name}
                                             </a>
