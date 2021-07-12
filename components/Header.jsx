@@ -45,7 +45,7 @@ const solutions = [
 
 export default function Header() {
     return (
-        <Popover className='relative bg-white font-primary'>
+        <Popover className='relative z-20 bg-white font-primary'>
             {({ open }) => (
                 <>
                     <div className='px-4 mx-auto shadow-md sm:px-6'>
