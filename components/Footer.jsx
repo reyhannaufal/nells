@@ -53,6 +53,7 @@ export default function Footer() {
     return (
         <footer
             style={{ backgroundColor: '#305841' }}
+            className='font-primary'
             aria-labelledby='footerHeading'
         >
             <h2 id='footerHeading' className='sr-only'>
