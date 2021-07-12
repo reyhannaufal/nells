@@ -2,16 +2,11 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
-    BookmarkAltIcon,
-    CalendarIcon,
     ChartBarIcon,
     CursorClickIcon,
     MenuIcon,
-    PhoneIcon,
-    PlayIcon,
     RefreshIcon,
     ShieldCheckIcon,
-    SupportIcon,
     ViewGridIcon,
     XIcon,
 } from '@heroicons/react/outline';
@@ -22,34 +17,29 @@ const solutions = [
         description:
             'Get a better understanding of where your traffic is coming from.',
         href: '#',
-        icon: ChartBarIcon,
     },
     {
         name: 'Product',
         description:
             'Speak directly to your customers in a more meaningful way.',
         href: '#',
-        icon: CursorClickIcon,
     },
     {
         name: 'About Us',
         description: "Your customers' data will be safe and secure.",
         href: '#',
-        icon: ShieldCheckIcon,
     },
     {
         name: 'Glow Up!',
         description:
             "Connect with third-party tools that you're already using.",
         href: '#',
-        icon: ViewGridIcon,
     },
     {
         name: 'Health Zone',
         description:
             'Build strategic funnels that will drive your customers to convert',
         href: '#',
-        icon: RefreshIcon,
     },
 ];
 
@@ -162,10 +152,6 @@ export default function Header() {
                                                     href={item.href}
                                                     className='flex items-center p-3 -m-3 rounded-md hover:bg-gray-50'
                                                 >
-                                                    <item.icon
-                                                        className='flex-shrink-0 w-6 h-6 text-indigo-600'
-                                                        aria-hidden='true'
-                                                    />
                                                     <span className='ml-3 text-base font-medium text-gray-900'>
                                                         {item.name}
                                                     </span>
@@ -174,49 +160,6 @@ export default function Header() {
                                         </nav>
                                     </div>
                                 </div>
-                                {/* <div className='px-5 py-6 space-y-6'>
-                                    <div className='grid grid-cols-2 gap-y-4 gap-x-8'>
-                                        <a
-                                            href='#'
-                                            className='text-base font-medium text-gray-900 hover:text-gray-700'
-                                        >
-                                            Pricing
-                                        </a>
-
-                                        <a
-                                            href='#'
-                                            className='text-base font-medium text-gray-900 hover:text-gray-700'
-                                        >
-                                            Docs
-                                        </a>
-                                        {resources.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                href={item.href}
-                                                className='text-base font-medium text-gray-900 hover:text-gray-700'
-                                            >
-                                                {item.name}
-                                            </a>
-                                        ))}
-                                    </div>
-                                    <div>
-                                        <a
-                                            href='#'
-                                            className='flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700'
-                                        >
-                                            Sign up
-                                        </a>
-                                        <p className='mt-6 text-base font-medium text-center text-gray-500'>
-                                            Existing customer?{' '}
-                                            <a
-                                                href='#'
-                                                className='text-indigo-600 hover:text-indigo-500'
-                                            >
-                                                Sign in
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div> */}
                             </div>
                         </Popover.Panel>
                     </Transition>
