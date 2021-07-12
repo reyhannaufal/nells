@@ -10,6 +10,11 @@ module.exports = {
             fontFamily: {
                 primary: ['Poppins', 'sans-serif'],
             },
+            colors: {
+                spurple: '#745074',
+                spurplehover: '#A880A8',
+                spurpleghost: '#FAECFE',
+            },
         },
     },
     variants: {
