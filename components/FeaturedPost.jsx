@@ -94,7 +94,7 @@ export default function FeaturedPost() {
                                 </div>
                                 <button
                                     type='button'
-                                    className='inline-flex items-center w-1/3 px-8 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-6 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
+                                    className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
                                 >
                                     Read More
                                 </button>
