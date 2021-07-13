@@ -2,6 +2,7 @@ import Head from 'next/head';
 import FeaturedPost from '../components/FeaturedPost';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import MainContent from '../components/MainContent';
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <Header />
+            <MainContent />
             <FeaturedPost />
             <Footer />
         </div>
