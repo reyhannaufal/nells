@@ -24,7 +24,7 @@ export default function MainContent() {
         ),
     };
     return (
-        <div className='py-20 overflow-hidden bg-white'>
+        <div className='pb-10 overflow-hidden bg-white'>
             <Slider
                 {...settings}
                 className='max-w-[300px] py-20 mx-auto sm:max-w-[400px]  lg:max-w-7xl'

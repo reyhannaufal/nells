@@ -19,11 +19,11 @@ export default function Home() {
             <FeaturedPost />
             <Product />
             {/* Why our product section */}
-            <section className='py-24 px-7 font-primary md:px-0'>
+            <section className='py-16 md:py-24 px-7 font-primary md:px-0'>
                 <h2 className='text-4xl font-medium text-center '>
                     Why Our Product?
                 </h2>
-                <div className='max-w-sm mx-auto lg:mt-16 lg:max-w-5xl'>
+                <div className='max-w-sm mx-auto mt-10 lg:mt-16 lg:max-w-5xl'>
                     {/* Box start here */}
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
                         <img
