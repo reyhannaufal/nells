@@ -11,6 +11,7 @@ export default function MainContent() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+
         prevArrow: (
             <button className='w-9 h-9'>
                 <MdKeyboardArrowLeft className='text-4xl text-black' />
@@ -23,7 +24,7 @@ export default function MainContent() {
         ),
     };
     return (
-        <div className='overflow-hidden bg-white'>
+        <div className='py-20 overflow-hidden bg-white'>
             <Slider
                 {...settings}
                 className='max-w-[300px] py-20 mx-auto sm:max-w-[400px]  lg:max-w-7xl'

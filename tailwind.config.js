@@ -15,6 +15,7 @@ module.exports = {
                 spurple: '#745074',
                 spurplehover: '#A880A8',
                 spurpleghost: '#FAECFE',
+                pinkish: '#F5F3F6',
             },
         },
     },

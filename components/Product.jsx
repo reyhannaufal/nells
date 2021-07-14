@@ -1,6 +1,6 @@
 export default function Product() {
     return (
-        <div>
+        <div className='bg-pinkish'>
             <section className='flex flex-col max-w-md px-8 py-20 mx-auto lg:px-0'>
                 <h2 className='block mx-auto text-4xl'>Buy Our Product</h2>
                 <div className='flex flex-col mt-10 overflow-hidden shadow-lg rounded-3xl'>
