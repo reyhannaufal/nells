@@ -5,7 +5,7 @@ const posts = [
         href: '#',
         category: { name: 'Article', href: '#' },
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+            'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         imageUrl:
@@ -23,7 +23,7 @@ const posts = [
         href: '#',
         category: { name: 'Video', href: '#' },
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi.',
+            'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
         date: 'Mar 10, 2020',
         datetime: '2020-03-10',
         imageUrl:
@@ -41,7 +41,7 @@ const posts = [
         href: '#',
         category: { name: 'Case Study', href: '#' },
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+            'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
         date: 'Feb 12, 2020',
         datetime: '2020-02-12',
         imageUrl:
@@ -68,7 +68,7 @@ export default function FeaturedPost() {
                         Our Latest Article
                     </h2>
                 </div>
-                <div className='grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none'>
+                <div className='grid max-w-lg gap-5 px-5 mx-auto mt-12 md:px-0 lg:grid-cols-3 lg:max-w-none'>
                     {posts.map((post) => (
                         <div
                             key={post.title}
@@ -87,7 +87,7 @@ export default function FeaturedPost() {
                                         <p className='text-xl font-semibold text-gray-900'>
                                             {post.title}
                                         </p>
-                                        <p className='mt-3 text-base text-gray-500'>
+                                        <p className='mt-3 text-base text-gray-500 font-secondary'>
                                             {post.description}
                                         </p>
                                     </a>
@@ -105,7 +105,7 @@ export default function FeaturedPost() {
                 <div className='flex justify-center'>
                     <button
                         type='button'
-                        className='inline-flex mt-10 items-center w-[321px] px-[134px] py-3  text-md font-medium bg-white border border-transparent rounded-2xl shadow-sm text-spurple md:px-[134px] hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'
+                        className='inline-flex mt-10 items-center w-[321px] px-[130px] py-3  text-md font-medium bg-white border border-transparent rounded-2xl shadow-sm text-spurple md:px-[130px] hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'
                     >
                         See All
                     </button>
