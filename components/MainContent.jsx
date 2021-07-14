@@ -30,7 +30,7 @@ export default function MainContent() {
                 className='max-w-[300px] py-20 mx-auto sm:max-w-[400px]  lg:max-w-7xl'
             >
                 {sliderContent.map((e) => (
-                    <div key={e.id}>
+                    <div key={e.id} className='pl-4 md:pl-0'>
                         <div className='flex flex-col max-w-sm mx-auto sm:max-w-xl lg:flex-row lg:space-x-32 lg:max-w-4xl'>
                             <img
                                 src={e.image}
