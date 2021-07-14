@@ -9,6 +9,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 primary: ['Poppins', 'sans-serif'],
+                secondary: ['Open Sans', 'sans-serif'],
             },
             colors: {
                 spurple: '#745074',
