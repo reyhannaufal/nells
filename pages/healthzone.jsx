@@ -12,15 +12,15 @@ export default function healthzone() {
             </Head>
             <Header />
             <header>
-                <div className='px-6 py-16 space-y-3 font-normal text-center lg:px-0 font-primary'>
+                <div className='px-2 py-16 space-y-3 font-normal text-center lg:px-0 font-primary'>
                     <h1 className='text-4xl'>Health Zone</h1>
-                    <p className='text-gray-500 font-secondary'>
+                    <p className='text-sm text-gray-500 md:text-base font-secondary'>
                         Yuk, edukasi diri kita mengenai penyakit{' '}
                         <span className='font-bold text-green-700'>
                             Alzheimer
                         </span>
                     </p>
-                    <p className='text-gray-500 font-secondary'>
+                    <p className='text-sm text-gray-500 md:text-base font-secondary'>
                         dan
                         <span className='font-bold text-green-700'>
                             {' '}

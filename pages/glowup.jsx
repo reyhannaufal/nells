@@ -13,10 +13,10 @@ export default function glowup() {
             <header>
                 <div className='px-5 py-16 space-y-3 font-normal text-center lg:px-0 font-primary'>
                     <h1 className='text-4xl'>Glow Up!</h1>
-                    <p className='text-gray-500 font-secondary'>
+                    <p className='text-sm text-gray-500 font-secondary md:text-base'>
                         Punya pertanyaan seputar perawatan ketiak?
                     </p>
-                    <p className='text-gray-500 font-secondary'>
+                    <p className='text-sm text-gray-500 font-secondary md:text-base'>
                         Kami siap membantu!
                     </p>
                 </div>
