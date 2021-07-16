@@ -6,7 +6,7 @@ export default function glowup() {
         <div>
             <Header />
             <header>
-                <div className='py-16 space-y-3 font-normal text-center font-primary'>
+                <div className='px-5 py-16 space-y-3 font-normal text-center lg:px-0 font-primary'>
                     <h1 className='text-4xl'>Glow Up!</h1>
                     <p className='text-gray-500 font-secondary'>
                         Punya pertanyaan seputar perawatan ketiak?

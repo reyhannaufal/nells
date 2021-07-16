@@ -6,7 +6,7 @@ export default function healthzone() {
         <div>
             <Header />
             <header>
-                <div className='py-16 space-y-3 font-normal text-center font-primary'>
+                <div className='py-16 space-y-3 font-normal text-center px:5 lg:px-0 font-primary'>
                     <h1 className='text-4xl'>Health Zone</h1>
                     <p className='text-gray-500 font-secondary'>
                         Yuk, edukasi diri kita mengenai penyakit{' '}
