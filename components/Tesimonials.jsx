@@ -42,7 +42,7 @@ export default function Tesimonials() {
                 className='max-w-[300px] py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl'
             >
                 {sliderContent.map((e) => (
-                    <div key={e.id} className='pl-4 md:pl-0'>
+                    <div key={e.id} className='ml-0.5 px-5 md:ml-0'>
                         <div className='flex flex-col max-w-lg mx-auto my-5 shadow-lg rounded-3xl'>
                             <div className='p-5'>
                                 <p className='max-w-md font-normal text-center text-gray-500 font-secondary lg:text-left'>
