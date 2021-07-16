@@ -1,12 +1,18 @@
+import Head from 'next/head';
+
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 export default function healthzone() {
     return (
         <div>
+            <Head>
+                <title>Nells | Healthzone</title>
+                <link rel='icon' href='/favicon.ico' />
+            </Head>
             <Header />
             <header>
-                <div className='py-16 space-y-3 font-normal text-center px:5 lg:px-0 font-primary'>
+                <div className='max-w-sm py-16 mx-auto space-y-3 font-normal text-center lg:px-0 font-primary'>
                     <h1 className='text-4xl'>Health Zone</h1>
                     <p className='text-gray-500 font-secondary'>
                         Yuk, edukasi diri kita mengenai penyakit{' '}
