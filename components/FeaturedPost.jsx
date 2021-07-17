@@ -67,7 +67,7 @@ export default function FeaturedPost() {
                         Our Latest Article
                     </h2>
                 </div>
-                <div className='grid max-w-lg gap-5 px-5 mx-auto mt-12 md:px-0 lg:grid-cols-3 lg:max-w-none'>
+                <div className='grid max-w-lg gap-5 mx-auto mt-12 px-7 lg:grid-cols-3 lg:max-w-none'>
                     {posts.map((post) => (
                         <div
                             key={post.title}

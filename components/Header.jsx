@@ -81,15 +81,16 @@ export default function Header() {
                                         Home
                                     </a>
                                 </Link>
-                                <Link
-                                    href='#'
-                                    className={`${
-                                        router.pathname === '/product'
-                                            ? 'font-bold'
-                                            : 'font-medium'
-                                    } text-base  text-gray-900 hover:text-gray-900`}
-                                >
-                                    Product
+                                <Link href='/product'>
+                                    <a
+                                        className={`${
+                                            router.pathname === '/product'
+                                                ? 'font-bold'
+                                                : 'font-medium'
+                                        } text-base  text-gray-900 hover:text-gray-900`}
+                                    >
+                                        Product
+                                    </a>
                                 </Link>
                                 <Link
                                     href='#'

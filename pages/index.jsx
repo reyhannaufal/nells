@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import MainContent from '../components/MainContent';
 import Product from '../components/Product';
-import Tesimonials from '../components/Tesimonials';
+import Testimonials from '../components/Tesimonials';
 
 export default function Home() {
     return (
@@ -78,7 +78,7 @@ export default function Home() {
 
             <Certificate />
 
-            <Tesimonials />
+            <Testimonials />
 
             {/* Contact our reseller section */}
             <section className='px-5 py-20 bg-pinkish md:px-0'>
