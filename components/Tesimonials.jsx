@@ -7,7 +7,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
 export default function Tesimonials() {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
@@ -33,7 +33,7 @@ export default function Tesimonials() {
         ),
     };
     return (
-        <div className='py-20 overflow-hidden bg-white'>
+        <div className='py-10 overflow-hidden bg-white'>
             <h2 className='mt-10 text-4xl font-normal text-center font-primary '>
                 Their Testimonials
             </h2>
