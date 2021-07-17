@@ -4,7 +4,7 @@ const navigation = {
         { name: 'Glow Up!', href: '#' },
         { name: 'Health Zone', href: '#' },
     ],
-    produk: [{ name: 'AutoScrab', href: '#' }],
+    produk: [{ name: `NELL'S Citronella Deodorant`, href: '#' }],
     media_sosial: [
         { name: 'Instagram', href: '#' },
         { name: 'Twitter', href: '#' },

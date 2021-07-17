@@ -1,9 +1,9 @@
 import Slider from 'react-slick';
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
-import Testimonials from '../components/Tesimonials';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import TestimoniProd from '../components/TestimoniProd';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -39,8 +39,8 @@ export default function product() {
         <main className='overflow-hidden'>
             <Header />
             <section className='mx-auto max-w-7xl'>
-                <div className='flex'>
-                    <div className='max-w-xs py-20 ml-20 mr-24'>
+                <div className='flex flex-col mx-auto lg:flex-row'>
+                    <div className='max-w-xs py-20 mx-auto lg:ml-20 lg:mr-24'>
                         <Slider {...settings} className='' arrows={false}>
                             <div>
                                 <img src='/png/product-foto.png' />
@@ -56,8 +56,8 @@ export default function product() {
                             </div>
                         </Slider>
                     </div>
-                    <aside className='w-[50%] pt-20 '>
-                        <h1 className='text-3xl font-semibold font-primary'>
+                    <aside className='lg:w-[50%] px-5 lg:pt-20 '>
+                        <h1 className='text-2xl font-semibold lg:text-3xl font-primary'>
                             NELL'S Citronella Deodorant
                         </h1>
                         <div className='flex mt-1 space-x-3 font-secondary'>
@@ -95,15 +95,15 @@ export default function product() {
                         </div>
                         <button
                             type='button'
-                            className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
+                            className='inline-flex items-center w-full lg:w-[150px] px-[136px] py-3 lg:py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
                         >
                             Beli Sekarang
                         </button>
                     </aside>
                 </div>
             </section>
-            <hr className='max-w-6xl mx-auto mt-2 border-2 rounded-lg' />
-            <section className='max-w-6xl py-10 mx-auto '>
+            <hr className='md:max-w-6xl max-w-sm mx-auto mt-10 lg:mt-2 border-[1.5px] rounded-lg' />
+            <section className='max-w-sm py-10 mx-auto lg:max-w-6xl'>
                 <h3 className='text-xl font-semibold font-secondary'>
                     Deskripsi Produk
                 </h3>
@@ -116,11 +116,7 @@ export default function product() {
                     Tellus velit, vel morbi enim sit massa interdum id massa.
                     Porta at a egestas vitae.{' '}
                 </p>
-                <p className='mt-2 text-base font-normal font-secondary'>
-                    At eu molestie ac pellentesque et, etiam vitae eget elit.
-                    Habitasse et ut aliquet aliquet ipsum facilisi orci, mi,
-                    diam. Vivamus tellus purus tincidunt augue consequat.{' '}
-                </p>
+
                 <p className='mt-2 text-base font-normal font-secondary'>
                     Enim, tincidunt fringilla congue morbi erat viverra neque.
                     Lacus, vivamus rutrum sagittis diam. Arcu et, eget volutpat
@@ -134,7 +130,7 @@ export default function product() {
                     magna et sit. Egestas dui purus sit ipsum.
                 </p>
             </section>
-            <Testimonials className='bg-[#F4F4F4]' />
+            <TestimoniProd />
             <Footer />
             <style global jsx>
                 {`

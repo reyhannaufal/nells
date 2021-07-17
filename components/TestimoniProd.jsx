@@ -5,7 +5,7 @@ import { RiUserLine } from 'react-icons/ri';
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
-export default function Tesimonials(props) {
+export default function TestimoniProd(props) {
     const settings = {
         dots: false,
         infinite: true,
@@ -21,19 +21,9 @@ export default function Tesimonials(props) {
                 },
             },
         ],
-        prevArrow: (
-            <button className='top-0 my-2 w-9'>
-                <MdKeyboardArrowLeft className='text-4xl text-black' />
-            </button>
-        ),
-        nextArrow: (
-            <button className='top-0 w-9 h-9'>
-                <MdKeyboardArrowRight className='text-4xl text-black' />
-            </button>
-        ),
     };
     return (
-        <div className={`py-10 overflow-hidden bg-white ${props.className}`}>
+        <div className={`py-10 overflow-hidden bg-[#F4F4F4]`}>
             <h2 className='mt-10 text-4xl font-normal text-center font-primary '>
                 Their Testimonials
             </h2>

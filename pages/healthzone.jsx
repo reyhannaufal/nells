@@ -30,7 +30,7 @@ export default function healthzone() {
                     </p>
                 </div>
             </header>
-            <section className='max-w-sm pb-5 mx-auto space-y-5 lg:max-w-4xl'>
+            <section className='max-w-sm mx-auto space-y-5 pb-28 lg:max-w-4xl'>
                 <div className='flex flex-col px-5 lg:px-0 lg:space-x-10 lg:flex-row'>
                     <img
                         src='/png/main-photo.png'
@@ -41,13 +41,16 @@ export default function healthzone() {
                             Anjuran Puasa di Bulan Muharram
                         </h3>
                         <div className='flex space-x-5 font-secondary'>
-                            <div className='flex space-x-1'>
+                            <div className='flex space-x-1 '>
                                 <img src='/svg/photo-blog.svg' />
-                                <p className='text-gray-500'>Lala</p>
+                                <p className='text-gray-500 mt-0.5'>Lala</p>
                             </div>
-                            <div className='flex space-x-1'>
-                                <img src='/svg/calender-blog.svg' />
-                                <p className='text-gray-500'>
+                            <div className='flex w-full space-x-1'>
+                                <img
+                                    className='self-center w-5'
+                                    src='/svg/calender-blog.svg'
+                                />
+                                <p className='text-gray-500 mt-0.5'>
                                     October 11, 2020
                                 </p>
                             </div>
@@ -73,13 +76,16 @@ export default function healthzone() {
                             Anjuran Puasa di Bulan Muharram
                         </h3>
                         <div className='flex space-x-5 font-secondary'>
-                            <div className='flex space-x-1'>
+                            <div className='flex space-x-1 '>
                                 <img src='/svg/photo-blog.svg' />
-                                <p className='text-gray-500'>Lala</p>
+                                <p className='text-gray-500 mt-0.5'>Lala</p>
                             </div>
-                            <div className='flex space-x-1'>
-                                <img src='/svg/calender-blog.svg' />
-                                <p className='text-gray-500'>
+                            <div className='flex w-full space-x-1'>
+                                <img
+                                    className='self-center w-5'
+                                    src='/svg/calender-blog.svg'
+                                />
+                                <p className='text-gray-500 mt-0.5'>
                                     October 11, 2020
                                 </p>
                             </div>
