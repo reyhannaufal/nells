@@ -1,11 +1,13 @@
 import Slider from 'react-slick';
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
+import { PropagateLoader } from 'react-spinners';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TestimoniProd from '../components/TestimoniProd';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { useState } from 'react';
 
 export default function product() {
     const settings = {
@@ -35,28 +37,42 @@ export default function product() {
             </button>
         ),
     };
+    const [loading, setLoading] = useState(false);
     return (
         <main className='overflow-hidden'>
             <Header />
             <section className='mx-auto max-w-7xl'>
                 <div className='flex flex-col mx-auto lg:flex-row'>
-                    <div className='max-w-xs py-20 mx-auto lg:ml-20 lg:mr-24'>
-                        <Slider {...settings} className='' arrows={false}>
-                            <div>
-                                <img src='/png/product-foto.png' />
+                    <div
+                        className={`max-w-xs py-20 mx-auto lg:ml-20  ${
+                            loading ? 'lg:mr-36' : 'lg:mr-0'
+                        }`}
+                    >
+                        {loading ? (
+                            <div className='pt-20 lg:ml-28'>
+                                <PropagateLoader color={'#745074'} />
                             </div>
-                            <div>
-                                <img src='/png/product-foto.png' />
-                            </div>
-                            <div>
-                                <img src='/png/product-foto.png' />
-                            </div>
-                            <div>
-                                <img src='/png/product-foto.png' />
-                            </div>
-                        </Slider>
+                        ) : (
+                            <Slider {...settings} arrows={false}>
+                                <div>
+                                    <img
+                                        src='/png/product-foto.png'
+                                        onLoad={() => setLoading(false)}
+                                    />
+                                </div>
+                                <div>
+                                    <img src='/png/product-foto.png' />
+                                </div>
+                                <div>
+                                    <img src='/png/product-foto.png' />
+                                </div>
+                                <div>
+                                    <img src='/png/product-foto.png' />
+                                </div>
+                            </Slider>
+                        )}
                     </div>
-                    <aside className='lg:w-[50%] px-5 lg:pt-20 '>
+                    <aside className='lg:w-[50%] px-5 lg:pt-20 max-w-sm mx-auto lg:mx-24'>
                         <h1 className='text-2xl font-semibold lg:text-3xl font-primary'>
                             NELL'S Citronella Deodorant
                         </h1>
@@ -95,15 +111,15 @@ export default function product() {
                         </div>
                         <button
                             type='button'
-                            className='inline-flex items-center w-full lg:w-[150px] px-[136px] py-3 lg:py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
+                            className='inline-flex items-center w-full lg:w-[150px] px-[120px] py-3 lg:py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
                         >
                             Beli Sekarang
                         </button>
                     </aside>
                 </div>
             </section>
-            <hr className='md:max-w-6xl max-w-sm mx-auto mt-10 lg:mt-2 border-[1.5px] rounded-lg' />
-            <section className='max-w-sm py-10 mx-auto lg:max-w-6xl'>
+            <hr className='max-w-sm mx-auto mt-10 border-2 rounded-lg md:max-w-6xl lg:mt-7' />
+            <section className='max-w-sm px-5 py-10 mx-auto lg:max-w-6xl'>
                 <h3 className='text-xl font-semibold font-secondary'>
                     Deskripsi Produk
                 </h3>
