@@ -7,7 +7,7 @@ export default function glowup() {
         <div>
             <Head>
                 <title>Nells | Glow Up!</title>
-                <link rel='icon' href='/favicon.ico' />
+                <link rel='icon' href='/favicon.png' />
             </Head>
             <Header />
             <header>
