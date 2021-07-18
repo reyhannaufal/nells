@@ -37,7 +37,7 @@ const solutions = [
     },
 ];
 
-export default function Header() {
+export default function Header({ props }) {
     const router = useRouter();
     return (
         <Popover className='relative z-20 bg-white font-primary'>
@@ -105,7 +105,8 @@ export default function Header() {
                                 <Link href='/glowup'>
                                     <a
                                         className={`${
-                                            router.pathname == '/glowup'
+                                            router.pathname == '/glowup' ||
+                                            router.pathname === '/glowup/1'
                                                 ? 'font-bold'
                                                 : 'font-medium'
                                         } text-base  text-gray-900 hover:text-gray-900`}
