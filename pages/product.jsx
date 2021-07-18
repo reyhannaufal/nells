@@ -1,43 +1,20 @@
-import Slider from 'react-slick';
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
-import { PropagateLoader } from 'react-spinners';
+import dynamic from 'next/dynamic';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TestimoniProd from '../components/TestimoniProd';
+import ProductSlider from '../components/ProductSlider';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
 import { useState } from 'react';
 
 export default function product() {
-    const settings = {
-        customPaging: function (i) {
-            return (
-                <div className='grid grid-col-4'>
-                    <a className=''>
-                        <img src={`/png/product-foto.png`} className='' />
-                    </a>
-                </div>
-            );
-        },
-        dots: true,
-        dotsClass: 'slick-dots slick-thumb',
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: (
-            <button className='top-0 my-2 w-9'>
-                <MdKeyboardArrowLeft className='text-4xl text-black' />
-            </button>
-        ),
-        nextArrow: (
-            <button className='top-0 w-9 h-9'>
-                <MdKeyboardArrowRight className='text-4xl text-black' />
-            </button>
-        ),
-    };
     const [loading, setLoading] = useState(false);
+
+    const [link, setLink] = useState('https://www.bukalapak.com/');
+
     return (
         <main className='overflow-hidden'>
             <Header />
@@ -49,30 +26,12 @@ export default function product() {
                         }`}
                     >
                         {loading ? (
-                            <div className='pt-20 lg:ml-28'>
-                                <PropagateLoader color={'#745074'} />
-                            </div>
+                            <div className='pt-20 lg:ml-28'></div>
                         ) : (
-                            <Slider {...settings} arrows={false}>
-                                <div>
-                                    <img
-                                        src='/png/product-foto.png'
-                                        onLoad={() => setLoading(false)}
-                                    />
-                                </div>
-                                <div>
-                                    <img src='/png/product-foto.png' />
-                                </div>
-                                <div>
-                                    <img src='/png/product-foto.png' />
-                                </div>
-                                <div>
-                                    <img src='/png/product-foto.png' />
-                                </div>
-                            </Slider>
+                            <ProductSlider />
                         )}
                     </div>
-                    <aside className='lg:w-[50%] px-5 lg:pt-20 max-w-sm mx-auto lg:mx-24'>
+                    <aside className='lg:w-[50%] px-5 lg:pt-20 max-w-sm lg:max-w-none mx-auto lg:mx-24'>
                         <h1 className='text-2xl font-semibold lg:text-3xl font-primary'>
                             NELL'S Citronella Deodorant
                         </h1>
@@ -83,42 +42,47 @@ export default function product() {
                         <h3 className='mt-5 text-lg font-normal font-secondary'>
                             Beli produk kami lewat:
                         </h3>
-                        <div className='py-2 space-y-1'>
-                            <div className='flex space-x-3'>
+                        <div
+                            className='flex flex-col py-2 space-y-1'
+                            onChange={(e) => setLink(e.target.value)}
+                        >
+                            <div className='space-x-2 text-base font-secondary'>
                                 <input
+                                    checked={
+                                        link === 'https://www.bukalapak.com/'
+                                    }
                                     type='radio'
-                                    id='Shopee'
-                                    value='Shopee'
+                                    value='https://www.bukalapak.com/'
+                                    name='bukalapak'
+                                    className='text-spurple'
                                 />
-                                <label htmlFor='Shopee'>Shopee</label>
+                                <label>Bukalapak</label>
                             </div>
-                            <div className='flex space-x-3'>
+                            <div className='space-x-2 text-base font-secondary'>
                                 <input
+                                    checked={
+                                        link === 'https://www.tokopedia.com/'
+                                    }
                                     type='radio'
-                                    id='Tokopedia'
-                                    value='Tokopedia'
+                                    value='https://www.tokopedia.com/'
+                                    name='tokopedia'
+                                    className='text-spurple '
                                 />
-                                <label htmlFor='Tokopedia'>Tokopedia</label>
-                            </div>
-                            <div className='flex space-x-3'>
-                                <input
-                                    type='radio'
-                                    id='Lazada'
-                                    value='Lazada'
-                                />
-                                <label htmlFor='Lazada'>Lazada</label>
+                                <label>Tokopedia</label>
                             </div>
                         </div>
                         <button
                             type='button'
-                            className='inline-flex items-center w-full lg:w-[150px] px-[120px] py-3 lg:py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
+                            className='inline-flex items-center w-full lg:w-[150px] px-[120px] py-3 lg:py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm lg:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
                         >
-                            Beli Sekarang
+                            <a href={link} target='_blank'>
+                                Beli Sekarang
+                            </a>
                         </button>
                     </aside>
                 </div>
             </section>
-            <hr className='max-w-sm mx-auto mt-10 border-2 rounded-lg md:max-w-6xl lg:mt-7' />
+            <hr className='max-w-sm mx-auto mt-10 border-2 rounded-lg lg:max-w-6xl lg:mt-7' />
             <section className='max-w-sm px-5 py-10 mx-auto lg:max-w-6xl'>
                 <h3 className='text-xl font-semibold font-secondary'>
                     Deskripsi Produk

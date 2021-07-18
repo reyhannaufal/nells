@@ -1,6 +1,4 @@
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import { RiUserLine } from 'react-icons/ri';
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
@@ -21,6 +19,16 @@ export default function TestimoniProd(props) {
                 },
             },
         ],
+        prevArrow: (
+            <button className='w-9 h-9'>
+                <MdKeyboardArrowLeft className='text-4xl text-black' />
+            </button>
+        ),
+        nextArrow: (
+            <button className='w-9 h-9'>
+                <MdKeyboardArrowRight className='text-4xl text-black' />
+            </button>
+        ),
     };
     return (
         <div className={`py-10 overflow-hidden bg-[#F4F4F4]`}>
@@ -32,8 +40,8 @@ export default function TestimoniProd(props) {
                 className='max-w-[300px] py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl'
             >
                 {sliderContent.map((e) => (
-                    <div key={e.id} className='ml-0.5 px-5 md:ml-0'>
-                        <div className='flex flex-col max-w-lg mx-auto my-5 shadow-lg rounded-3xl'>
+                    <div key={e.id} className='px-5 ml-1.5 md:ml-0'>
+                        <div className='flex flex-col max-w-lg mx-auto my-5 bg-white shadow-lg rounded-3xl'>
                             <div className='p-5'>
                                 <p className='max-w-md font-normal text-center text-gray-500 font-secondary lg:text-left'>
                                     "Lorem ipsum dolor sit amet, consectetur
@@ -60,6 +68,17 @@ export default function TestimoniProd(props) {
                     </div>
                 ))}
             </Slider>
+            <style global jsx>
+                {`
+                    .slick-next::before {
+                        content: ' ';
+                    }
+
+                    .slick-prev::before {
+                        content: ' ';
+                    }
+                `}
+            </style>
         </div>
     );
 }

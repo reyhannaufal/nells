@@ -16,7 +16,7 @@ const solutions = [
         name: 'Product',
         description:
             'Speak directly to your customers in a more meaningful way.',
-        href: '#',
+        href: '/product',
     },
     {
         name: 'About Us',
@@ -58,7 +58,7 @@ export default function Header() {
                                 </Link>
                             </div>
                             <div className='-my-2 -mr-2 md:hidden'>
-                                <Popover.Button className='inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
+                                <Popover.Button className='inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-spurple'>
                                     <span className='sr-only'>Open menu</span>
                                     <MenuIcon
                                         className='w-6 h-6'
@@ -154,7 +154,7 @@ export default function Header() {
                                             />
                                         </div>
                                         <div className='-mr-2'>
-                                            <Popover.Button className='inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
+                                            <Popover.Button className='inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-spurple'>
                                                 <span className='sr-only'>
                                                     Close menu
                                                 </span>

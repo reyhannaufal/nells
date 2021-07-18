@@ -11,7 +11,6 @@ export default function MainContent() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-
         prevArrow: (
             <button className='w-9 h-9'>
                 <MdKeyboardArrowLeft className='text-4xl text-black' />

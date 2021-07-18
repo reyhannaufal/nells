@@ -1,10 +1,10 @@
 const navigation = {
     perusahaan: [{ name: 'About Us', href: '#' }],
     edukasi: [
-        { name: 'Glow Up!', href: '#' },
-        { name: 'Health Zone', href: '#' },
+        { name: 'Glow Up!', href: '/glowup' },
+        { name: 'Health Zone', href: '/healthzone' },
     ],
-    produk: [{ name: `NELL'S Citronella Deodorant`, href: '#' }],
+    produk: [{ name: `NELL'S Citronella Deodorant`, href: '/produk' }],
     media_sosial: [
         { name: 'Instagram', href: '#' },
         { name: 'Twitter', href: '#' },
