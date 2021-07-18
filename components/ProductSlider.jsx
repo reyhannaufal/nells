@@ -6,9 +6,11 @@ export default function ProductSlider() {
         customPaging: function (i) {
             return (
                 <div className='grid grid-col-4'>
-                    <a className=''>
-                        <img src={`/png/product-foto.png`} className='' />
-                    </a>
+                    <div>
+                        <a>
+                            <img src={`/png/product-foto.png`} className='' />
+                        </a>
+                    </div>
                 </div>
             );
         },
