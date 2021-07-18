@@ -9,6 +9,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import { useState } from 'react';
+import Head from 'next/head';
 
 export default function product() {
     const [loading, setLoading] = useState(false);
@@ -18,6 +19,10 @@ export default function product() {
     return (
         <main className='overflow-hidden'>
             <Header />
+            <Head>
+                <title>Nells | NELL'S Citronella Deodorant</title>
+                <link rel='icon' href='/favicon.png' />
+            </Head>
             <section className='mx-auto max-w-7xl'>
                 <div className='flex flex-col mx-auto lg:flex-row'>
                     <div

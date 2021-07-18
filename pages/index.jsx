@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <Head>
                 <title>Nells | Homepage</title>
-                <link rel='icon' href='/favicon.ico' />
+                <link rel='icon' href='/favicon.png' />
             </Head>
             <Header />
             <MainContent />
