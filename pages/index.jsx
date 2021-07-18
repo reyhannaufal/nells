@@ -27,7 +27,7 @@ export default function Home() {
                     {/* Box start here */}
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
                         <img
-                            src='/png/main-photo.png'
+                            src='/png/product-1.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
                         />
                         <div>
@@ -53,13 +53,13 @@ export default function Home() {
                             </p>
                         </div>
                         <img
-                            src='/png/main-photo.png'
+                            src='/png/product-2.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
                         />
                     </div>
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
                         <img
-                            src='/png/main-photo.png'
+                            src='/png/product-3.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
                         />
                         <div>
@@ -85,7 +85,7 @@ export default function Home() {
                 <div className='max-w-sm mx-auto lg:mt-16 lg:max-w-5xl'>
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
                         <img
-                            src='/png/main-photo.png'
+                            src='/png/reseller.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
                         />
                         <div>
