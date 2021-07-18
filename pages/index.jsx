@@ -110,6 +110,17 @@ export default function Home() {
                 </div>
             </section>
             <Footer />
+            <style global jsx>
+                {`
+                    .slick-next::before {
+                        content: ' ';
+                    }
+
+                    .slick-prev::before {
+                        content: ' ';
+                    }
+                `}
+            </style>
         </div>
     );
 }

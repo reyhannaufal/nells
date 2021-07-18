@@ -22,12 +22,12 @@ export default function Tesimonials(props) {
             },
         ],
         prevArrow: (
-            <button className='top-0 my-2 w-9'>
+            <button className='w-9 h-9'>
                 <MdKeyboardArrowLeft className='text-4xl text-black' />
             </button>
         ),
         nextArrow: (
-            <button className='top-0 w-9 h-9'>
+            <button className='w-9 h-9'>
                 <MdKeyboardArrowRight className='text-4xl text-black' />
             </button>
         ),
