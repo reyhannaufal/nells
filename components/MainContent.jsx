@@ -26,7 +26,7 @@ export default function MainContent() {
         <div className='pb-10 overflow-hidden bg-white'>
             <Slider
                 {...settings}
-                className='max-w-[300px] py-20 mx-auto sm:max-w-[400px]  lg:max-w-7xl'
+                className='max-w-[300px] py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl'
             >
                 {sliderContent.map((e) => (
                     <div key={e.id} className='pl-4 md:pl-0'>
@@ -34,6 +34,7 @@ export default function MainContent() {
                             <img
                                 src={e.image}
                                 className='w-[200px] mx-auto lg:mx-0 h-[200px] lg:h-auto lg:w-auto rounded-3xl'
+                                alt={e.title}
                             />
                             <div>
                                 <h1 className='mt-8 text-lg font-semibold text-center lg:text-left md:text-4xl'>

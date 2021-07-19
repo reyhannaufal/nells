@@ -8,7 +8,10 @@ export default function ProductSlider() {
                 <div className='grid grid-col-4'>
                     <div>
                         <a>
-                            <img src={`/png/product-foto.png`} className='' />
+                            <img
+                                src={`/png/product-foto.png`}
+                                alt='product-foto'
+                            />
                         </a>
                     </div>
                 </div>
@@ -26,7 +29,7 @@ export default function ProductSlider() {
     return (
         <Slider {...settings}>
             <div>
-                <img src='/png/product-foto.png' />
+                <img src='/png/product-foto.png' alt='product foto' />
             </div>
             <div>
                 <img src='/png/product-foto.png' />

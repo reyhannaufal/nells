@@ -41,7 +41,7 @@ export default function product() {
                             NELL'S Citronella Deodorant
                         </h1>
                         <div className='flex mt-1 space-x-3 font-secondary'>
-                            <img src='/svg/stars.svg' />
+                            <img src='/svg/stars.svg' alt='stars' />
                             <p>(0 reviews)</p>
                         </div>
                         <h3 className='mt-5 text-lg font-normal font-secondary'>
