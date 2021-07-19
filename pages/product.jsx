@@ -1,5 +1,3 @@
-import dynamic from 'next/dynamic';
-
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TestimoniProd from '../components/TestimoniProd';
@@ -10,6 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import { useState } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function product() {
     const [loading, setLoading] = useState(false);
@@ -41,7 +40,12 @@ export default function product() {
                             NELL'S Citronella Deodorant
                         </h1>
                         <div className='flex mt-1 space-x-3 font-secondary'>
-                            <img src='/svg/stars.svg' alt='stars' />
+                            <Image
+                                height={24}
+                                width={136}
+                                src='/svg/stars.svg'
+                                alt='stars'
+                            />
                             <p>(0 reviews)</p>
                         </div>
                         <h3 className='mt-5 text-lg font-normal font-secondary'>

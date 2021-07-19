@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Image from 'next/image';
+
 import Certificate from '../components/Certificate';
 import FeaturedPost from '../components/FeaturedPost';
 import Footer from '../components/Footer';
@@ -26,7 +28,10 @@ export default function Home() {
                 <div className='max-w-sm mx-auto mt-10 lg:mt-16 lg:max-w-5xl'>
                     {/* Box start here */}
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
-                        <img
+                        <Image
+                            height='320px'
+                            loading='lazy'
+                            width='320px'
                             alt='Product Foto'
                             src='/png/product-1.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
@@ -53,14 +58,20 @@ export default function Home() {
                                 kulit ketiak secara optimal.
                             </p>
                         </div>
-                        <img
+                        <Image
+                            height='320px'
+                            loading='lazy'
+                            width='320px'
                             alt='Product Foto'
                             src='/png/product-2.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
                         />
                     </div>
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
-                        <img
+                        <Image
+                            height='320px'
+                            width='320px'
+                            loading='lazy'
                             alt='Product Foto'
                             src='/png/product-3.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
@@ -87,7 +98,10 @@ export default function Home() {
             <section className='px-5 py-20 bg-pinkish md:px-0'>
                 <div className='max-w-sm mx-auto lg:mt-16 lg:max-w-5xl'>
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
-                        <img
+                        <Image
+                            height='320px'
+                            width='320px'
+                            loading='lazy'
                             alt='Reseller Foto'
                             src='/png/reseller.png'
                             className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'

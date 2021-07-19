@@ -13,7 +13,7 @@ export default function MainContent() {
         slidesToScroll: 1,
         prevArrow: (
             <button className='w-9 h-9'>
-                <MdKeyboardArrowLeft className='text-4xl text-black' />
+                <MdKeyboardArrowLeft className='text-4xl text-black ' />
             </button>
         ),
         nextArrow: (
@@ -23,13 +23,13 @@ export default function MainContent() {
         ),
     };
     return (
-        <div className='pb-10 overflow-hidden bg-white'>
+        <div className='pb-10 overflow-hidden bg-white '>
             <Slider
                 {...settings}
-                className='max-w-[300px] py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl'
+                className='max-w-[300px]  py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl  '
             >
                 {sliderContent.map((e) => (
-                    <div key={e.id} className='pl-4 md:pl-0'>
+                    <div key={e.id}>
                         <div className='flex flex-col max-w-sm mx-auto sm:max-w-xl lg:flex-row lg:space-x-32 lg:max-w-4xl'>
                             <img
                                 src={e.image}

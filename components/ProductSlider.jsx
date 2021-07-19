@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 import Slider from 'react-slick';
 
@@ -8,7 +9,10 @@ export default function ProductSlider() {
                 <div className='grid grid-col-4'>
                     <div>
                         <a>
-                            <img
+                            <Image
+                                height={320}
+                                width={320}
+                                loading='eager'
                                 src={`/png/product-foto.png`}
                                 alt='product-foto'
                             />
@@ -29,16 +33,36 @@ export default function ProductSlider() {
     return (
         <Slider {...settings}>
             <div>
-                <img src='/png/product-foto.png' alt='product foto' />
+                <Image
+                    width={320}
+                    height={320}
+                    src='/png/product-foto.png'
+                    alt='product foto'
+                />
             </div>
             <div>
-                <img src='/png/product-foto.png' />
+                <Image
+                    width={320}
+                    height={320}
+                    loading='eager'
+                    src='/png/product-foto.png'
+                />
             </div>
             <div>
-                <img src='/png/product-foto.png' />
+                <Image
+                    width={320}
+                    height={320}
+                    loading='eager'
+                    src='/png/product-foto.png'
+                />
             </div>
             <div>
-                <img src='/png/product-foto.png' />
+                <Image
+                    width={320}
+                    height={320}
+                    loading='eager'
+                    src='/png/product-foto.png'
+                />
             </div>
         </Slider>
     );
