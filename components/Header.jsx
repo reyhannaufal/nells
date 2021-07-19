@@ -114,7 +114,7 @@ export default function Header({ props }) {
                                         Glow Up!
                                     </a>
                                 </Link>
-                                <Link href='healthzone'>
+                                <Link href='/healthzone'>
                                     <a
                                         className={`${
                                             router.pathname == '/healthzone'
