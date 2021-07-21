@@ -23,14 +23,14 @@ export default function MainContent() {
         ),
     };
     return (
-        <div className='pb-10 overflow-hidden bg-white '>
+        <div className='pr-4 overflow-hidden bg-white sm:pr-0 px-29'>
             <Slider
                 {...settings}
-                className='max-w-[300px]  py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl  '
+                className='max-w-[300px] pl-3  py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl  '
             >
                 {sliderContent.map((e) => (
                     <div key={e.id}>
-                        <div className='flex flex-col max-w-sm mx-auto sm:max-w-xl lg:flex-row lg:space-x-32 lg:max-w-4xl'>
+                        <div className='flex flex-col max-w-xs mx-auto sm:max-w-xl lg:flex-row lg:space-x-32 lg:max-w-4xl'>
                             <img
                                 src={e.image}
                                 className='w-[200px] mx-auto lg:mx-0 h-[200px] lg:h-auto lg:w-auto rounded-3xl'

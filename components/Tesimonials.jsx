@@ -33,7 +33,9 @@ export default function Tesimonials(props) {
         ),
     };
     return (
-        <div className={`py-10 overflow-hidden bg-white ${props.className}`}>
+        <div
+            className={`py-10 pr-3 sm:pr-0 overflow-hidden bg-white ${props.className}`}
+        >
             <h2 className='mt-10 text-4xl font-normal text-center font-primary '>
                 Their Testimonials
             </h2>

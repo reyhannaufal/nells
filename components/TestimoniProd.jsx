@@ -31,7 +31,7 @@ export default function TestimoniProd(props) {
         ),
     };
     return (
-        <div className={`py-10 overflow-hidden bg-[#F4F4F4]`}>
+        <div className={`py-10 pr-3 sm:pr-0 overflow-hidden bg-[#F4F4F4]`}>
             <h2 className='mt-10 text-4xl font-normal text-center font-primary '>
                 Their Testimonials
             </h2>
