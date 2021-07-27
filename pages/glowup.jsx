@@ -2,14 +2,12 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Seo from '../components/Seo';
 
 export default function glowup() {
     return (
         <div>
-            <Head>
-                <title>Nells | Glow Up!</title>
-                <link rel='icon' href='/favicon.png' />
-            </Head>
+            <Seo title='Home | Glowup!' />
             <Header />
             <header>
                 <div className='px-5 py-16 space-y-3 font-normal text-center lg:px-0 font-primary'>

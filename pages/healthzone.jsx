@@ -3,14 +3,12 @@ import Link from 'next/link';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Seo from '../components/Seo';
 
 export default function healthzone() {
     return (
         <div>
-            <Head>
-                <title>Nells | Healthzone</title>
-                <link rel='icon' href='/favicon.png' />
-            </Head>
+            <Seo title='Home | Healthzone' />
             <Header />
             <header>
                 <div className='px-2 py-16 space-y-3 font-normal text-center lg:px-0 font-primary'>

@@ -7,15 +7,13 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import MainContent from '../components/MainContent';
 import Product from '../components/Product';
+import Seo from '../components/Seo';
 import Testimonials from '../components/Tesimonials';
 
 export default function Home() {
     return (
         <div>
-            <Head>
-                <title>Nells | Homepage</title>
-                <link rel='icon' href='/favicon.png' />
-            </Head>
+            <Seo title='Nels | Home' />
             <Header />
             <MainContent />
             <FeaturedPost />

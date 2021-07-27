@@ -1,14 +1,14 @@
+import { useState } from 'react';
+import Image from 'next/image';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TestimoniProd from '../components/TestimoniProd';
 import ProductSlider from '../components/ProductSlider';
+import Seo from '../components/Seo';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-import { useState } from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
 
 export default function product() {
     const [loading, setLoading] = useState(false);
@@ -18,10 +18,7 @@ export default function product() {
     return (
         <main className='overflow-hidden'>
             <Header />
-            <Head>
-                <title>Nells | NELL'S Citronella Deodorant</title>
-                <link rel='icon' href='/favicon.png' />
-            </Head>
+            <Seo title='Home | Product' />
             <section className='mx-auto max-w-7xl'>
                 <div className='flex flex-col mx-auto lg:flex-row'>
                     <div
