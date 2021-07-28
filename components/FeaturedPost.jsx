@@ -77,7 +77,7 @@ export default function FeaturedPost() {
                                 <img
                                     className='object-cover w-full h-48'
                                     src={post.imageUrl}
-                                    alt=''
+                                    alt={post.title}
                                 />
                             </div>
                             <div className='flex flex-col justify-between flex-1 p-6 bg-white'>

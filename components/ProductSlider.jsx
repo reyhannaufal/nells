@@ -12,7 +12,7 @@ export default function ProductSlider() {
                             <Image
                                 height={320}
                                 width={320}
-                                loading='eager'
+                                loading='lazy'
                                 src={`/png/product-foto.png`}
                                 alt='product-foto'
                             />
@@ -35,6 +35,7 @@ export default function ProductSlider() {
             <div>
                 <Image
                     width={320}
+                    loading='lazy'
                     height={320}
                     src='/png/product-foto.png'
                     alt='product foto'
@@ -44,7 +45,7 @@ export default function ProductSlider() {
                 <Image
                     width={320}
                     height={320}
-                    loading='eager'
+                    loading='lazy'
                     src='/png/product-foto.png'
                 />
             </div>
@@ -52,7 +53,7 @@ export default function ProductSlider() {
                 <Image
                     width={320}
                     height={320}
-                    loading='eager'
+                    loading='lazy'
                     src='/png/product-foto.png'
                 />
             </div>
@@ -60,7 +61,7 @@ export default function ProductSlider() {
                 <Image
                     width={320}
                     height={320}
-                    loading='eager'
+                    loading='lazy'
                     src='/png/product-foto.png'
                 />
             </div>
