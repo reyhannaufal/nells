@@ -21,7 +21,7 @@ const solutions = [
     {
         name: 'About Us',
         description: "Your customers' data will be safe and secure.",
-        href: '#',
+        href: '/aboutus',
     },
     {
         name: 'Glow Up!',
@@ -92,21 +92,23 @@ export default function Header({ props }) {
                                         Product
                                     </a>
                                 </Link>
-                                <Link
-                                    href='#'
-                                    className={`${
-                                        router.pathname === '/aboutus'
-                                            ? 'font-bold'
-                                            : 'font-medium'
-                                    } text-base  text-gray-900 hover:text-gray-900`}
-                                >
-                                    About Us
+                                <Link href='/aboutus'>
+                                    <a
+                                        className={`${
+                                            router.pathname === '/aboutus'
+                                                ? 'font-bold'
+                                                : 'font-medium'
+                                        } text-base  text-gray-900 hover:text-gray-900`}
+                                    >
+                                        About Us
+                                    </a>
                                 </Link>
                                 <Link href='/glowup'>
                                     <a
                                         className={`${
-                                            router.pathname == '/glowup' ||
-                                            router.pathname === '/glowup/1'
+                                            router.pathname.startsWith(
+                                                '/glowup'
+                                            )
                                                 ? 'font-bold'
                                                 : 'font-medium'
                                         } text-base  text-gray-900 hover:text-gray-900`}
@@ -117,7 +119,9 @@ export default function Header({ props }) {
                                 <Link href='/healthzone'>
                                     <a
                                         className={`${
-                                            router.pathname == '/healthzone'
+                                            router.pathname.startsWith(
+                                                '/healthzone'
+                                            )
                                                 ? 'font-bold'
                                                 : 'font-medium'
                                         } text-base  text-gray-900 hover:text-gray-900`}

@@ -30,7 +30,7 @@ export default function healthzone() {
                 </div>
             </header>
             <section className='max-w-sm mx-auto space-y-5 pb-28 lg:max-w-4xl'>
-                <Link href='/glowup/1'>
+                <Link href='/healthzone/1'>
                     <a className=''>
                         <div className='flex flex-col px-5 py-5 hover:text-gray-600 lg:px-0 lg:space-x-10 lg:flex-row'>
                             <img

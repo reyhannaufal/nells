@@ -103,24 +103,26 @@ export default function Home() {
                             loading='lazy'
                             alt='Reseller Foto'
                             src='/png/reseller.png'
-                            className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
+                            className='rounded-xl w-[320px] h-[320]px mx-auto lg:h-auto lg:w-auto'
                         />
                         <div>
-                            <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-16 lg:text-3xl'>
+                            <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-5 lg:text-3xl'>
                                 Be a Reseller
                             </h3>
                             <p className='mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Risus cras ut pellentesque nisi
-                                phasellus leo non lorem ...
+                                Mari ikut berkontribusi dalam pencegahan risiko
+                                kanker payudara dan alzheimer. Informasi
+                                selengkapnya dapat menghubungi kontak dibawah
+                                ini.
                             </p>
                             <div className='flex justify-center lg:justify-start'>
-                                <button
+                                <a
+                                    href='https://wa.me/send/?phone=62895363417951'
                                     type='button'
                                     className='inline-flex mt-10 items-center w-[321px] px-[115px] py-3  text-md font-medium bg-spurple border border-transparent rounded-2xl shadow-sm text-white md:px-[115px] hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'
                                 >
                                     Contact Us
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
