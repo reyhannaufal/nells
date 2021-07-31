@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Seo from '../components/Seo';
 
 export default function aboutus() {
     return (
         <main>
+            <Seo title='Nels | About Us' />
             <Header />
             <section className='relative'>
                 <img
