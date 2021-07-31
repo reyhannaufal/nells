@@ -45,9 +45,18 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
-                    <div className='flex flex-col-reverse mt-5 lg:flex-row lg:space-x-36'>
+
+                    <div className='flex flex-col mt-5 lg:flex-row-reverse lg:space-x-16'>
+                        <Image
+                            height='320px'
+                            width='320px'
+                            loading='lazy'
+                            alt='Product Foto'
+                            src='/png/product-2.png'
+                            className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
+                        />
                         <div>
-                            <h3 className='mt-8 text-xl font-semibold text-center font-primary lg:text-left lg:text-3xl lg:mt-16 '>
+                            <h3 className='mt-8 text-xl font-semibold text-center font-primary lg:text-left lg:mt-16 lg:text-3xl'>
                                 Mengandung Virgin Coconut Oil (VCO)
                             </h3>
                             <p className='mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
@@ -56,14 +65,6 @@ export default function Home() {
                                 kulit ketiak secara optimal.
                             </p>
                         </div>
-                        <Image
-                            height='320px'
-                            loading='lazy'
-                            width='320px'
-                            alt='Product Foto'
-                            src='/png/product-2.png'
-                            className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
-                        />
                     </div>
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
                         <Image
