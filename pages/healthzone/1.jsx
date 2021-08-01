@@ -1,9 +1,11 @@
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import Seo from '../../components/Seo';
 
 export default function Test() {
     return (
         <main>
+            <Seo title='Nells | Blog Post' />
             <Header />
             <section className='max-w-sm pt-10 mx-auto lg:max-w-5xl'>
                 <h1 className='text-2xl font-semibold lg:text-3xl'>

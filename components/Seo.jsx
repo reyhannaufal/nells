@@ -16,6 +16,7 @@ export default function Seo(props) {
     return (
         <Head>
             <title>{meta.title}</title>
+            <html lang='id' />
             <meta name='robots' content={meta.robots} />
             <meta content={meta.description} name='description' />
             <meta

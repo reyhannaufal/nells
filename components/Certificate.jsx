@@ -7,7 +7,7 @@ export default function Certificate() {
                         <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-16 lg:text-3xl'>
                             Certificate
                         </h3>
-                        <p className='mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
+                        <p className='mt-5 font-light text-center text-gray-600 lg:text-left font-secondary'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Risus cras ut pellentesque nisi phasellus leo
                             non lorem magna. Et maecenas bibendum consectetur
@@ -23,6 +23,7 @@ export default function Certificate() {
                         </div>
                     </div>
                     <iframe
+                        title='Nells Certificate'
                         className='w-[321px] h-[455px] mx-auto'
                         src={`https://drive.google.com/file/d/1hAgKzGj64TeVQNfxUY7-X2eRa7wNtxAb/preview`}
                     />

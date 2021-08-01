@@ -7,7 +7,7 @@ import Seo from '../components/Seo';
 export default function glowup() {
     return (
         <div>
-            <Seo title='Home | Glowup!' />
+            <Seo title='Nells | Glowup!' />
             <Header />
             <header>
                 <div className='px-5 py-16 space-y-3 font-normal text-center lg:px-0 font-primary'>

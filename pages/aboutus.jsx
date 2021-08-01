@@ -6,7 +6,7 @@ import Seo from '../components/Seo';
 export default function aboutus() {
     return (
         <main>
-            <Seo title='Nels | About Us' />
+            <Seo title='Nells | About Us' />
             <Header />
             <section className='relative'>
                 <img

@@ -60,10 +60,10 @@ export default function Tesimonials(props) {
                                             <RiUserLine className='mx-auto mt-1 w-9 h-9' />
                                         </div>
                                         <div>
-                                            <p className='font-bold text-gray-500 font-secondary text-md'>
+                                            <p className='font-bold text-gray-600 font-secondary text-md'>
                                                 Reyhan Naufal
                                             </p>
-                                            <p className='text-sm text-gray-400 font-secondary'>
+                                            <p className='text-sm text-gray-500 font-secondary'>
                                                 Mahasiswa
                                             </p>
                                         </div>

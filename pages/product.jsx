@@ -18,7 +18,7 @@ export default function product() {
     return (
         <main className='overflow-hidden'>
             <Header />
-            <Seo title='Home | Product' />
+            <Seo title='Nells | Product' />
             <section className='mx-auto max-w-7xl'>
                 <div className='flex flex-col mx-auto lg:flex-row'>
                     <div

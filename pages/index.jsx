@@ -13,7 +13,7 @@ import Testimonials from '../components/Tesimonials';
 export default function Home() {
     return (
         <div>
-            <Seo title='Nels | Home' />
+            <Seo title='Nells | Home' />
             <Header />
             <MainContent />
             <FeaturedPost />
@@ -106,7 +106,7 @@ export default function Home() {
                             className='rounded-xl w-[320px] h-[320]px mx-auto lg:h-auto lg:w-auto'
                         />
                         <div>
-                            <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-5 lg:text-3xl'>
+                            <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-8 lg:text-3xl'>
                                 Be a Reseller
                             </h3>
                             <p className='mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
