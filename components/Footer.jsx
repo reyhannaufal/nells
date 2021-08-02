@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 const navigation = {
-    perusahaan: [{ name: 'About Us', href: '#' }],
+    perusahaan: [{ name: 'About Us', href: '/aboutus' }],
     edukasi: [
         { name: 'Glow Up!', href: '/glowup' },
         { name: 'Health Zone', href: '/healthzone' },
     ],
-    produk: [{ name: `NELL'S Citronella Deodorant`, href: '/produk' }],
+    produk: [{ name: `NELL'S Citronella Deodorant`, href: '/product' }],
     media_sosial: [
         { name: 'Instagram', href: '#' },
         { name: 'Twitter', href: '#' },
@@ -72,17 +74,20 @@ export default function Footer() {
                         </p>
                         <div className='flex justify-center space-x-6 md:justify-start'>
                             {navigation.social.map((item) => (
-                                <a
-                                    key={item.name}
-                                    href={item.href}
-                                    className='text-gray-400 hover:text-gray-500'
-                                >
-                                    <span className='sr-only'>{item.name}</span>
-                                    <item.icon
-                                        className='w-6 h-6'
-                                        aria-hidden='true'
-                                    />
-                                </a>
+                                <Link href={item.href}>
+                                    <a
+                                        key={item.name}
+                                        className='text-gray-400 hover:text-gray-500'
+                                    >
+                                        <span className='sr-only'>
+                                            {item.name}
+                                        </span>
+                                        <item.icon
+                                            className='w-6 h-6'
+                                            aria-hidden='true'
+                                        />
+                                    </a>
+                                </Link>
                             ))}
                         </div>
                     </div>

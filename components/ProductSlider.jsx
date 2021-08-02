@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 import Slider from 'react-slick';
 
 export default function ProductSlider() {

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Seo from '../components/Seo';
@@ -9,10 +10,14 @@ export default function aboutus() {
             <Seo title='Nells | About Us' />
             <Header />
             <section className='relative'>
-                <img
+                <Image
+                    width={1440}
+                    height={509}
+                    loading='lazy'
                     src='/png/about-us-banner.png'
                     alt='about-us banner'
-                    className='h-64 md:h-auto'
+                    layout='responsive'
+                    className='mt-10'
                 />
                 <div className='absolute bottom-14 xl:left-36 left-5 md:left-10'>
                     <h1 className='text-3xl font-normal text-white md:text-5xl '>
@@ -66,14 +71,15 @@ export default function aboutus() {
             <section className='px-5 py-20 bg-pinkish md:px-0'>
                 <div className='max-w-sm mx-auto lg:mt-16 lg:max-w-5xl'>
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
-                        <Image
-                            height='320px'
-                            width='320px'
-                            loading='lazy'
-                            alt='Reseller Foto'
-                            src='/png/contact-us.png'
-                            className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'
-                        />
+                        <div className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'>
+                            <Image
+                                height={320}
+                                width={320}
+                                loading='lazy'
+                                alt='Reseller Foto'
+                                src='/png/contact-us.png'
+                            />
+                        </div>
                         <div>
                             <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-5 lg:text-3xl'>
                                 Want to contact us?
