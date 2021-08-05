@@ -39,7 +39,7 @@ export default function Tesimonials(props) {
             <h2 className='mt-10 text-4xl font-normal text-center font-primary '>
                 Their Testimonials
             </h2>
-            <div className='max-w-sm mx-auto lg:max-w-6xl'>
+            <div className='max-w-sm mx-auto lg:max-w-4xl xl:max-w-6xl'>
                 <Slider
                     {...settings}
                     className='max-w-[300px] py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl lg:px-24'

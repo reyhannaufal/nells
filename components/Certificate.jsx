@@ -1,7 +1,7 @@
 export default function Certificate() {
     return (
         <section className='px-5 py-20 bg-pinkish md:px-0'>
-            <div className='max-w-sm mx-auto lg:mt-16 lg:max-w-5xl'>
+            <div className='max-w-sm mx-auto lg:mt-16 lg:max-w-4xl xl:max-w-5xl'>
                 <div className='flex flex-col-reverse mt-5 lg:flex-row lg:space-x-36'>
                     <div>
                         <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-16 lg:text-3xl'>
