@@ -4,6 +4,34 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
+const LeftButton = ({ currentSlide, slideCount, ...props }) => (
+    <button
+        className={
+            'w-9 h-9 slick-prev slick-arrow' +
+            (currentSlide === 0 ? ' slick-disabled' : '')
+        }
+        aria-disabled={currentSlide === 0 ? true : false}
+        aria-label='left-arrow'
+        aria-hidden='true'
+    >
+        <MdKeyboardArrowLeft className='text-4xl text-black ' />
+    </button>
+);
+
+const RightButton = ({ currentSlide, slideCount, ...props }) => (
+    <button
+        className={
+            'w-9 h-9 slick-next slick-arrow' +
+            (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
+        }
+        aria-disabled={currentSlide === slideCount - 1 ? true : false}
+        aria-label='right-arrow'
+        aria-hidden='true'
+    >
+        <MdKeyboardArrowRight className='text-4xl text-black' />
+    </button>
+);
+
 export default function MainContent() {
     const settings = {
         dots: true,
@@ -12,12 +40,20 @@ export default function MainContent() {
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: (
-            <button className='w-9 h-9'>
-                <MdKeyboardArrowLeft className='text-4xl text-black ' />
+            <button
+                className={'w-9 h-9'}
+                aria-label='right-arrow'
+                aria-hidden='true'
+            >
+                <MdKeyboardArrowLeft className='text-4xl text-black' />
             </button>
         ),
         nextArrow: (
-            <button className='w-9 h-9'>
+            <button
+                className={'w-9 h-9'}
+                aria-label='right-arrow'
+                aria-hidden='true'
+            >
                 <MdKeyboardArrowRight className='text-4xl text-black' />
             </button>
         ),
@@ -27,7 +63,7 @@ export default function MainContent() {
             <div className='max-w-sm mx-auto lg:max-w-6xl'>
                 <Slider
                     {...settings}
-                    className='max-w-[300px] pl-3  py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl  '
+                    className='max-w-[300px] pl-3 py-20 mx-auto sm:max-w-[400px] lg:max-w-7xl  '
                 >
                     {sliderContent.map((e) => (
                         <div key={e.id}>

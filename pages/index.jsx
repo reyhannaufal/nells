@@ -24,10 +24,10 @@ export default function Home() {
                 <h2 className='text-4xl font-medium text-center '>
                     Why Our Product?
                 </h2>
-                <div className='max-w-sm mx-auto mt-10 lg:mt-16 lg:max-w-4xl xl:max-w-5xl'>
+                <div className='max-w-sm mx-auto mt-10 lg:mt-16 lg:max-w-4xl xl:max-w-6xl'>
                     {/* Box start here */}
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
-                        <div className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'>
+                        <div className='rounded-xl w-[180px] h-[180px] mx-auto lg:h-auto lg:w-auto'>
                             <Image
                                 height='320px'
                                 loading='lazy'
@@ -48,8 +48,8 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className='flex flex-col mt-5 lg:flex-row-reverse lg:space-x-16'>
-                        <div className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'>
+                    <div className='flex flex-col mt-10 lg:flex-row-reverse '>
+                        <div className='rounded-xl xl:mr-10 w-[180px] h-[180px] mx-auto xl:h-[250px] xl:w-[250px]'>
                             <Image
                                 height='320px'
                                 width='320px'
@@ -59,18 +59,18 @@ export default function Home() {
                             />
                         </div>
                         <div>
-                            <h3 className='mt-8 text-xl font-semibold text-center font-primary lg:text-left lg:mt-16 lg:text-3xl'>
+                            <h3 className='mt-8 text-xl font-semibold text-center font-primary lg:text-left lg:mt-16 lg:text-3xl '>
                                 Mengandung Virgin Coconut Oil (VCO)
                             </h3>
-                            <p className='mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
+                            <p className='max-w-2xl mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
                                 Virgin Coconut Oil (VCO), mengandung vitamin E
                                 yang mampu mencerahkan dan menjaga kelembutan
                                 kulit ketiak secara optimal.
                             </p>
                         </div>
                     </div>
-                    <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
-                        <div className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'>
+                    <div className='flex flex-col mt-10 lg:flex-row lg:space-x-36'>
+                        <div className='rounded-xl w-[180px] h-[180px] mx-auto lg:h-auto lg:w-auto'>
                             <Image
                                 height='320px'
                                 width='320px'
