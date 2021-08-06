@@ -7,7 +7,7 @@ export default function Test() {
         <main>
             <Seo title='Nells | Blog Post' />
             <Header />
-            <section className='max-w-sm pt-10 mx-auto lg:max-w-5xl'>
+            <section className='max-w-sm pt-10 mx-auto xl:px-0 px-7 lg:max-w-5xl'>
                 <h1 className='text-2xl font-semibold lg:text-3xl'>
                     Anjuran Puasa di Bulan Ramadhan
                 </h1>

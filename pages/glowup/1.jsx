@@ -7,7 +7,7 @@ export default function Test() {
         <main>
             <Seo title='Nells | Blog Post' />
             <Header />
-            <section className='max-w-sm pt-10 mx-auto lg:max-w-5xl'>
+            <section className='max-w-sm pt-10 mx-auto xl:px-0 px-7 lg:max-w-5xl'>
                 <h1 className='text-2xl font-semibold lg:text-3xl'>
                     Anjuran Puasa di Bulan Ramadhan
                 </h1>
@@ -25,7 +25,7 @@ export default function Test() {
                     </div>
                 </div>
                 <img src='/png/cover-blog.png' className='mt-5' />
-                <div className='px-4 mt-10 text-base font-normal lg:px-0 space-y-7 font-secondary'>
+                <div className='mt-10 text-base font-normal space-y-7 font-secondary'>
                     <p>
                         Alhamdulillah segala puji bagi Allah subhanahu wa ta’ala
                         yang telah mencurahkan rahmatnya dengan sebegitu

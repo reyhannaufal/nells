@@ -73,12 +73,9 @@ export default function Footer() {
                             Stay connected with us!
                         </p>
                         <div className='flex justify-center space-x-6 md:justify-start'>
-                            {navigation.social.map((item) => (
-                                <Link href={item.href}>
-                                    <a
-                                        key={item.name}
-                                        className='text-gray-400 hover:text-gray-500'
-                                    >
+                            {navigation.social.map((item, index) => (
+                                <Link href={item.href} key={index}>
+                                    <a className='text-gray-400 hover:text-gray-500'>
                                         <span className='sr-only'>
                                             {item.name}
                                         </span>
@@ -98,16 +95,18 @@ export default function Footer() {
                                     Perusahaan
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
-                                    {navigation.perusahaan.map((item) => (
-                                        <li key={item.name}>
-                                            <a
-                                                href={item.href}
-                                                className='text-base font-light text-white hover:text-gray-200'
-                                            >
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
+                                    {navigation.perusahaan.map(
+                                        (item, index) => (
+                                            <li key={index}>
+                                                <a
+                                                    href={item.href}
+                                                    className='text-base font-light text-white hover:text-gray-200'
+                                                >
+                                                    {item.name}
+                                                </a>
+                                            </li>
+                                        )
+                                    )}
                                 </ul>
                             </div>
                             <div className='mt-12 md:mt-0'>
@@ -115,8 +114,8 @@ export default function Footer() {
                                     Edukasi
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
-                                    {navigation.edukasi.map((item) => (
-                                        <li key={item.name}>
+                                    {navigation.edukasi.map((item, index) => (
+                                        <li key={index}>
                                             <a
                                                 href={item.href}
                                                 className='text-base font-light text-white hover:text-gray-200'
@@ -134,8 +133,8 @@ export default function Footer() {
                                     Produk
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
-                                    {navigation.produk.map((item) => (
-                                        <li key={item.name}>
+                                    {navigation.produk.map((item, index) => (
+                                        <li key={index}>
                                             <a
                                                 href={item.href}
                                                 className='text-base font-light text-white hover:text-gray-200'
@@ -151,16 +150,18 @@ export default function Footer() {
                                     Media Sosial
                                 </h3>
                                 <ul className='mt-4 space-y-4'>
-                                    {navigation.media_sosial.map((item) => (
-                                        <li key={item.name}>
-                                            <a
-                                                href={item.href}
-                                                className='text-base font-light text-white hover:text-gray-200'
-                                            >
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
+                                    {navigation.media_sosial.map(
+                                        (item, index) => (
+                                            <li key={index}>
+                                                <a
+                                                    href={item.href}
+                                                    className='text-base font-light text-white hover:text-gray-200'
+                                                >
+                                                    {item.name}
+                                                </a>
+                                            </li>
+                                        )
+                                    )}
                                 </ul>
                             </div>
                         </div>

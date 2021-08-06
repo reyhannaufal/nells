@@ -69,9 +69,9 @@ export default function aboutus() {
                 </div>
             </section>
             <section className='px-5 py-20 bg-pinkish md:px-0'>
-                <div className='max-w-sm mx-auto lg:mt-16 lg:max-w-5xl'>
-                    <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
-                        <div className='rounded-xl w-[180px] h-[180]px mx-auto lg:h-auto lg:w-auto'>
+                <div className='max-w-sm mx-auto xl:mt-16 xl:max-w-5xl'>
+                    <div className='flex flex-col mt-5 xl:flex-row xl:space-x-36'>
+                        <div className='rounded-xl w-[180px] h-[180px] mx-auto lg:h-auto lg:w-auto'>
                             <Image
                                 height={320}
                                 width={320}
@@ -81,16 +81,16 @@ export default function aboutus() {
                             />
                         </div>
                         <div>
-                            <h3 className='mt-8 text-xl font-normal text-center lg:text-left lg:mt-5 lg:text-3xl'>
+                            <h3 className='mt-8 text-xl font-normal text-center xl:text-left lg:mt-5 lg:text-3xl'>
                                 Want to contact us?
                             </h3>
-                            <p className='mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
+                            <p className='mt-5 font-light text-center text-gray-500 xl:text-left font-secondary'>
                                 Mari ikut berkontribusi dalam pencegahan risiko
                                 kanker payudara dan alzheimer. Informasi
                                 selengkapnya dapat menghubungi kontak dibawah
                                 ini.
                             </p>
-                            <div className='flex justify-center lg:justify-start'>
+                            <div className='flex justify-center xl:justify-start'>
                                 <button
                                     type='button'
                                     className='inline-flex mt-10 items-center w-[321px] px-[115px] py-3  text-md font-medium bg-spurple border border-transparent rounded-2xl shadow-sm text-white md:px-[115px] hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'

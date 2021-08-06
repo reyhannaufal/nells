@@ -88,8 +88,8 @@ export default function product() {
                     </aside>
                 </div>
             </section>
-            <hr className='max-w-sm mx-auto mt-10 border-2 rounded-lg lg:max-w-6xl lg:mt-7' />
-            <section className='max-w-sm px-5 py-10 mx-auto lg:max-w-6xl'>
+            <hr className='max-w-sm mx-auto mt-10 border-2 rounded-lg lg:max-w-4xl xl:max-w-6xl lg:mt-7' />
+            <section className='max-w-sm px-5 py-10 mx-auto lg:max-w-4xl xl:max-w-6xl'>
                 <h3 className='text-xl font-semibold font-secondary'>
                     Deskripsi Produk
                 </h3>
