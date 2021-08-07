@@ -14,12 +14,12 @@ export default function aboutus() {
                     width={1440}
                     height={509}
                     loading='lazy'
-                    src='/png/about-us-banner.png'
+                    src='/png/cover-about.png'
                     alt='about-us banner'
                     layout='responsive'
                     className='mt-10'
                 />
-                <div className='absolute bottom-14 xl:left-36 left-5 md:left-10'>
+                <div className='absolute bottom-5 md:bottom-14 xl:left-36 left-5 md:left-10'>
                     <h1 className='text-3xl font-normal text-white md:text-5xl '>
                         About Us
                     </h1>
@@ -69,7 +69,7 @@ export default function aboutus() {
                 </div>
             </section>
             <section className='px-5 py-20 bg-pinkish md:px-0'>
-                <div className='max-w-sm mx-auto xl:mt-16 xl:max-w-5xl'>
+                <div className='max-w-sm mx-auto xl:max-w-6xl'>
                     <div className='flex flex-col mt-5 xl:flex-row xl:space-x-36'>
                         <div className='rounded-xl w-[180px] h-[180px] mx-auto lg:h-auto lg:w-auto'>
                             <Image
