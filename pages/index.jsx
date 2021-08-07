@@ -98,7 +98,7 @@ export default function Home() {
             <Testimonials />
 
             {/* Contact our reseller section */}
-            <section className='px-5 py-20 border-2 bg-pinkish md:px-0'>
+            <section className='px-5 py-20 bg-pinkish md:px-0'>
                 <div className='max-w-sm mx-auto lg:max-w-4xl xl:max-w-6xl'>
                     <div className='flex flex-col mt-5 lg:flex-row lg:space-x-36'>
                         <div className='rounded-xl w-[320px] h-[320]px mx-auto lg:h-auto lg:w-auto'>
