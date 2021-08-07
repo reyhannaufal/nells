@@ -8,7 +8,10 @@ const navigation = {
     ],
     produk: [{ name: `NELL'S Citronella Deodorant`, href: '/product' }],
     media_sosial: [
-        { name: 'Instagram', href: '#' },
+        {
+            name: 'Instagram',
+            href: 'https://www.instagram.com/nellsofficial.id/',
+        },
         { name: 'Twitter', href: '#' },
     ],
     social: [
@@ -155,6 +158,8 @@ export default function Footer() {
                                             <li key={index}>
                                                 <a
                                                     href={item.href}
+                                                    target='_blank'
+                                                    rel='nofollow noopener noreferrer'
                                                     className='text-base font-light text-white hover:text-gray-200'
                                                 >
                                                     {item.name}
