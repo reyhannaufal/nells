@@ -5,6 +5,36 @@ import { RiUserLine } from 'react-icons/ri';
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
+const LeftButton = ({ currentSlide, slideCount, onClick, ...props }) => (
+    <button
+        className={
+            'w-9 h-9 slick-prev slick-arrow' +
+            (currentSlide === 0 ? ' slick-disabled' : '')
+        }
+        aria-disabled={currentSlide === 0 ? true : false}
+        aria-label='left-arrow'
+        aria-hidden='true'
+        onClick={onClick}
+    >
+        <MdKeyboardArrowLeft className='text-4xl text-black ' />
+    </button>
+);
+
+const RightButton = ({ currentSlide, slideCount, onClick, ...props }) => (
+    <button
+        className={
+            'w-9 h-9 slick-next slick-arrow' +
+            (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
+        }
+        aria-disabled={currentSlide === slideCount - 1 ? true : false}
+        aria-label='right-arrow'
+        aria-hidden='true'
+        onClick={onClick}
+    >
+        <MdKeyboardArrowRight className='text-4xl text-black' />
+    </button>
+);
+
 export default function Tesimonials(props) {
     const settings = {
         dots: false,
@@ -21,24 +51,8 @@ export default function Tesimonials(props) {
                 },
             },
         ],
-        prevArrow: (
-            <button
-                className='w-9 h-9'
-                aria-label='right-arrow'
-                aria-hidden='true'
-            >
-                <MdKeyboardArrowLeft className='text-4xl text-black' />
-            </button>
-        ),
-        nextArrow: (
-            <button
-                className='w-9 h-9'
-                aria-label='left-arrow'
-                aria-hidden='true'
-            >
-                <MdKeyboardArrowRight className='text-4xl text-black' />
-            </button>
-        ),
+        prevArrow: <LeftButton />,
+        nextArrow: <RightButton />,
     };
     return (
         <div

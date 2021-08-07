@@ -68,11 +68,11 @@ export default function Seo(props) {
                 crossorigin
             />
             <link
-                href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'
+                href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=optional'
                 rel='stylesheet'
             />
             <link
-                href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap'
+                href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=optional'
                 rel='stylesheet'
             />
         </Head>
