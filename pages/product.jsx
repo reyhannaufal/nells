@@ -93,27 +93,76 @@ export default function product() {
                 <h3 className='text-xl font-semibold font-secondary'>
                     Deskripsi Produk
                 </h3>
-                <p className='mt-2 text-base font-normal font-secondary'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lectus bibendum fermentum at sapien, convallis potenti urna.
-                    Velit feugiat malesuada semper nulla iaculis nisl quisque
-                    ut. Sapien mauris netus placerat pulvinar at. Arcu eu
-                    vivamus mauris pretium ultrices neque, pretium lectus.
-                    Tellus velit, vel morbi enim sit massa interdum id massa.
-                    Porta at a egestas vitae.{' '}
-                </p>
 
                 <p className='mt-2 text-base font-normal font-secondary'>
-                    Enim, tincidunt fringilla congue morbi erat viverra neque.
-                    Lacus, vivamus rutrum sagittis diam. Arcu et, eget volutpat
-                    molestie mi dui. Porttitor adipiscing aliquet eu nullam.
-                    Integer dignissim consequat sapien sed sit ipsum, purus ac
-                    quis. Tempor feugiat viverra iaculis nullam dolor. Est
-                    varius ultrices ut sed viverra adipiscing felis. Vel magna
-                    quis cursus pharetra erat eget malesuada ut. Rhoncus
-                    condimentum eu lobortis cursus ullamcorper non varius libero
-                    tellus. Eu accumsan dictum amet, integer convallis volutpat
-                    magna et sit. Egestas dui purus sit ipsum.
+                    NELL’S Citronella Deodorant merupakan deodoran alami
+                    berbahan dasar serai wangi yang dikemas dalam <i>tube</i>{' '}
+                    berukuran 50ml. Tersedia dalam bentuk krim yang mudah
+                    menyerap serta lebih mudah diratakan dibandingkan jenis
+                    deodoran lainnya. Komposisinya bebas dari Aluminium
+                    Chlorohydrate (ACH) dan paraben yang aman untuk digunakan
+                    setiap hari. NELL’S berbahan utama serai wangi, dan
+                    dilengkapi bahan pelengkap seperti,{' '}
+                    <i>glyceril stearate </i>, gliserin, asam stearat,{' '}
+                    <i>stearyl alcohol </i>, VCO, NaHCO
+                    <sub>3</sub> , asam sitrat, <i>arrowroot </i> dan
+                    <i> phenoxyethanol </i> yang dapat menutrisi kulit ketiak
+                    serta mempercepat penyembuhan luka iritasi akibat pencukuran
+                    rambut ketiak.
+                </p>
+                <p className='text-base font-bold mt-7 font-secondary'>
+                    Mengapa menggunakan serai wangi?
+                </p>
+                <p className='mt-2 text-base font-normal font-secondary'>
+                    Serai wangi mengandung sitronelal dan geraniol yang
+                    berfungsi sebagai antiseptik dan antimikroba alami. Selain
+                    itu, kedua kandungan tersebut juga dapat menghambat proses
+                    terjadinya penuaan dini yang disebabkan oleh radikal bebas
+                    serta dapat berperan sebagai antikanker sehingga cocok untuk
+                    menggantikan peran Aluminium Chlorohydrate (ACH) dan paraben
+                    produk deodoran.
+                </p>
+                <p className='text-base font-bold mt-7 font-secondary'>
+                    Kenapa kita harus beralih ke NELL’S Citronella Deodorant?
+                </p>
+                <p className='mt-2 text-base font-normal font-secondary'>
+                    Karena NELL’S Citronella Deodorant memiliki berbagai
+                    kelebihan yang jarang kamu temui dalam deodoran lain. Apa
+                    aja sih?
+                    <ul className='mt-2 ml-8 list-disc'>
+                        <li>Beraroma wangi yang berasal dari serai wangi.</li>
+                        <li>
+                            Berbentuk krim yang mudah diaplikasikan dan cepat
+                            menyerap.
+                        </li>
+                        <li>
+                            Mengandung antibakteri, bekerja dengan menyerap
+                            keringat serta tidak menodai baju.
+                        </li>
+                        <li>
+                            Mampu mencerahkan dan melembutkan kulit ketiak,
+                            serta mampu mengatasi inflamasi akibat luka mencukur
+                            atau mencabut bulu ketiak.
+                        </li>
+                        <li>
+                            Komposisi yang aman, tidak mengandung bahan
+                            berbahaya.
+                        </li>
+                        <li>
+                            Kemasan yang unik dan{' '}
+                            <span className='italic'>travel friendly</span>.
+                        </li>
+                    </ul>
+                </p>
+                <br />
+                <p>
+                    Mulai sekarang, tak perlu khawatir dalam menggunakan
+                    deodoran setiap hari karena NELL’S hadir sebagai
+                    <strong> #YourDailyTrust</strong> yang mampu mengatasi bau
+                    badan sekaligus menutrisi ketiak dengan bahan bahan alami.
+                </p>
+                <p className='mt-2 italic font-bold'>
+                    Embrace your beauty by caring for your body!
                 </p>
             </section>
             <TestimoniProd />

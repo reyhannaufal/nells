@@ -7,8 +7,7 @@ const posts = [
             'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        imageUrl:
-            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        imageUrl: '/png/product-foto.png',
         readingTime: '6 min',
         author: {
             name: 'Roel Aufderehar',
@@ -25,8 +24,8 @@ const posts = [
             'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
         date: 'Mar 10, 2020',
         datetime: '2020-03-10',
-        imageUrl:
-            'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        imageUrl: '/png/product-foto.png',
+
         readingTime: '4 min',
         author: {
             name: 'Brenna Goyette',
@@ -43,8 +42,8 @@ const posts = [
             'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
         date: 'Feb 12, 2020',
         datetime: '2020-02-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        imageUrl: '/png/product-foto.png',
+
         readingTime: '11 min',
         author: {
             name: 'Daniela Metz',
