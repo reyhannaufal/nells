@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
-const LeftButton = ({ currentSlide, slideCount, ...props }) => (
+const LeftButton = ({ currentSlide, slideCount, onClick, ...props }) => (
     <button
         className={
             'w-9 h-9 slick-prev slick-arrow' +
@@ -13,12 +13,13 @@ const LeftButton = ({ currentSlide, slideCount, ...props }) => (
         aria-disabled={currentSlide === 0 ? true : false}
         aria-label='left-arrow'
         aria-hidden='true'
+        onClick={onClick}
     >
         <MdKeyboardArrowLeft className='text-4xl text-black ' />
     </button>
 );
 
-const RightButton = ({ currentSlide, slideCount, ...props }) => (
+const RightButton = ({ currentSlide, slideCount, onClick, ...props }) => (
     <button
         className={
             'w-9 h-9 slick-next slick-arrow' +
@@ -27,6 +28,7 @@ const RightButton = ({ currentSlide, slideCount, ...props }) => (
         aria-disabled={currentSlide === slideCount - 1 ? true : false}
         aria-label='right-arrow'
         aria-hidden='true'
+        onClick={onClick}
     >
         <MdKeyboardArrowRight className='text-4xl text-black' />
     </button>
@@ -39,24 +41,8 @@ export default function MainContent() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: (
-            <button
-                className={'w-9 h-9'}
-                aria-label='right-arrow'
-                aria-hidden='true'
-            >
-                <MdKeyboardArrowLeft className='text-4xl text-black' />
-            </button>
-        ),
-        nextArrow: (
-            <button
-                className={'w-9 h-9'}
-                aria-label='right-arrow'
-                aria-hidden='true'
-            >
-                <MdKeyboardArrowRight className='text-4xl text-black' />
-            </button>
-        ),
+        prevArrow: <LeftButton />,
+        nextArrow: <RightButton />,
     };
     return (
         <div className='pr-4 overflow-hidden bg-white sm:pr-0 px-29'>

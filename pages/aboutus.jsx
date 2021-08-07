@@ -28,42 +28,61 @@ export default function aboutus() {
             <section className='px-6 py-16 md:px-10 xl:px-0 lg:py-20'>
                 <div className='max-w-6xl mx-auto space-y-8 font-secondary'>
                     <div>
-                        <h2 className='pb-3 text-2xl font-bold'>History</h2>
+                        <h2 className='pb-3 text-2xl font-bold'>
+                            Our History and Background
+                        </h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Lectus bibendum fermentum at sapien, convallis
-                            potenti urna. Velit feugiat malesuada semper nulla
-                            iaculis nisl quisque ut. Sapien mauris netus
-                            placerat pulvinar at. Arcu eu vivamus mauris pretium
-                            ultrices neque, pretium lectus. Tellus velit, vel
-                            morbi enim sit massa interdum id massa. Porta at a
-                            egestas vitae.
+                            Deodoran merupakan produk perawatan yang sering
+                            diandalkan untuk mengatasi masalah bau badan dan
+                            keringat berlebih. Namun, deodoran yang banyak
+                            beredar di pasaran mengandung zat kimia berupa
+                            Aluminium Chlorohydrate (ACH) yang berfungsi untuk
+                            mengendalikan keringat dengan cara menutup
+                            pori-pori. Hal ini berpotensi memberikan dampak
+                            buruk bagi kesehatan berupa penyakit kanker payudara
+                            dan alzheimer karena termasuk golongan aluminium
+                            yang tinggi kadar toksiknya.
+                        </p>
+                        <p className='mt-4'>
+                            Sebagai alternatif produk dengan bahan aktif utama
+                            yang lebih aman, kami menciptakan produk deodoran
+                            berbentuk krim berbahan dasar serai wangi dengan
+                            merek NELL’S yang bebas dari penggunaan aluminium
+                            dan pengawet paraben. Inovasi deodoran NELL’S
+                            diciptakan pada tahun 2019 saat berlangsung
+                            kompetisi kepenulisan dalam bidang karya ilmiah bagi
+                            Mahasiswa Baru Fakultas Teknologi Pertanian,
+                            Universitas Brawijaya. Serai wangi sebagai bahan
+                            baku utama deodoran ini, dipercaya memiliki
+                            kandungan sitronelal dan geraniol sebagai antikanker
+                            dan antiinflamasi, serta kandungan flavonoid sebagai
+                            antibakteri yang mampu menghambat pertumbuhan dan
+                            membunuh bakteri penyebab bau badan seperti
+                            <i> Staphylococcus epidermidis</i>. Oleh karena itu,
+                            kami harap produk NELL’S dapat menjadi pilihan utama
+                            konsumen dalam menggunakan deodoran.
                         </p>
                     </div>
                     <div>
-                        <h2 className='pb-3 text-2xl font-bold'>Judul 1</h2>
+                        <h2 className='pb-3 text-2xl font-bold'>Our Vision</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Lectus bibendum fermentum at sapien, convallis
-                            potenti urna. Velit feugiat malesuada semper nulla
-                            iaculis nisl quisque ut. Sapien mauris netus
-                            placerat pulvinar at. Arcu eu vivamus mauris pretium
-                            ultrices neque, pretium lectus. Tellus velit, vel
-                            morbi enim sit massa interdum id massa. Porta at a
-                            egestas vitae.
+                            Menjadikan produk NELL’S terpercaya sebagai produk
+                            yang aman dan terhindar dari bahan berbahaya serta
+                            mendorong <i>customers</i> untuk tampil percaya diri
+                            dan peduli dengan kesehatan tubuh.
                         </p>
                     </div>
                     <div>
-                        <h2 className='pb-3 text-2xl font-bold'>Judul 2</h2>
+                        <h2 className='pb-3 text-2xl font-bold'>Mission</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Lectus bibendum fermentum at sapien, convallis
-                            potenti urna. Velit feugiat malesuada semper nulla
-                            iaculis nisl quisque ut. Sapien mauris netus
-                            placerat pulvinar at. Arcu eu vivamus mauris pretium
-                            ultrices neque, pretium lectus. Tellus velit, vel
-                            morbi enim sit massa interdum id massa. Porta at a
-                            egestas vitae.
+                            Membuat sarana edukasi melalui website sebagai
+                            bentuk kepedulian kami dengan <i>customers</i> yang
+                            berisi mengenai pencegahan penyakit kanker payudara
+                            dan Alzheimer serta perawatan kulit ketiak.
+                            Mendukung gerakan “Embrace your Beauty by Caring for
+                            your Body” yang bertujuan untuk mendorong{' '}
+                            <i>customers</i> agar meningkatkan kepercayaan diri
+                            dengan merawat tubuh.
                         </p>
                     </div>
                 </div>

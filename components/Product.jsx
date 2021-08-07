@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Product() {
     return (
         <div className='bg-pinkish'>
@@ -13,7 +15,7 @@ export default function Product() {
                     </div>
                     <div className='flex flex-col justify-between flex-1 p-6 bg-white'>
                         <div className='flex-1'>
-                            <a href='#' className='block mt-2'>
+                            <a className='block mt-2'>
                                 <p className='text-xl font-semibold text-gray-900'>
                                     NELL'S Citronella Deodorant
                                 </p>
@@ -23,12 +25,14 @@ export default function Product() {
                                 </p>
                             </a>
                         </div>
-                        <button
-                            type='button'
-                            className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
-                        >
-                            Read More
-                        </button>
+                        <Link href='/product'>
+                            <button
+                                type='button'
+                                className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
+                            >
+                                Read More
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>

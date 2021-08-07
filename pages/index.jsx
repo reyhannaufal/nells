@@ -33,7 +33,7 @@ export default function Home() {
                                 loading='lazy'
                                 width='320px'
                                 alt='Product Foto'
-                                src='/png/product-1.png'
+                                src='/png/product-3.png'
                             />
                         </div>
                         <div>
@@ -55,7 +55,7 @@ export default function Home() {
                                 width='320px'
                                 loading='lazy'
                                 alt='Product Foto'
-                                src='/png/product-2.png'
+                                src='/png/product-1.png'
                             />
                         </div>
                         <div>
@@ -76,7 +76,7 @@ export default function Home() {
                                 width='320px'
                                 loading='lazy'
                                 alt='Product Foto'
-                                src='/png/product-3.png'
+                                src='/png/product-2.png'
                             />
                         </div>
                         <div>
