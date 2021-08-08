@@ -9,16 +9,19 @@ export default function aboutus() {
         <main>
             <Seo title='Nells | About Us' />
             <Header />
-            <section className='relative'>
-                <Image
-                    width={1440}
-                    height={509}
-                    loading='lazy'
-                    src='/png/cover-about.png'
-                    alt='about-us banner'
-                    layout='responsive'
-                    className='mt-10'
-                />
+            <section className='relative overflow-hidden'>
+                <div
+                    width='1440'
+                    height='509'
+                    className='object-center h-[250px] w-[500px] md:h-[440px] md:w-[1440px] border'
+                >
+                    <Image
+                        loading='lazy'
+                        src='/png/cover-about.png'
+                        alt='about-us banner'
+                        layout='fill'
+                    />
+                </div>
                 <div className='absolute bottom-5 md:bottom-14 xl:left-36 left-5 md:left-10'>
                     <h1 className='text-3xl font-normal text-white md:text-5xl '>
                         About Us
