@@ -90,10 +90,11 @@ export default function aboutus() {
             <section className='px-5 py-20 bg-pinkish md:px-0'>
                 <div className='max-w-sm mx-auto xl:max-w-6xl'>
                     <div className='flex flex-col mt-5 xl:flex-row xl:space-x-36'>
-                        <div className='rounded-xl w-[180px] h-[180px] mx-auto lg:h-auto lg:w-auto'>
+                        <div className=' w-[180px] h-[180px] mx-auto lg:h-auto lg:w-auto'>
                             <Image
                                 height={320}
                                 width={320}
+                                className='rounded-3xl'
                                 loading='lazy'
                                 alt='Reseller Foto'
                                 src='/png/contact-us.png'
