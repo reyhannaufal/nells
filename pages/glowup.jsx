@@ -21,22 +21,22 @@ export default function glowup() {
                 </div>
             </header>
             <section className='max-w-sm mx-auto space-y-5 pb-28 lg:max-w-4xl'>
-                <Link href='/glowup/1'>
+                <Link href='/glowup/cara-tepat-mencukur-bulu-ketiak-yang-aman'>
                     <a className=''>
                         <div className='flex flex-col px-5 hover:text-gray-600 lg:px-0 lg:space-x-10 lg:flex-row'>
                             <img
-                                src='/png/main-photo.png'
-                                className='rounded-3xl h-[235px]'
+                                src='/png/glowup-1.png'
+                                className='w-1/3 h-full rounded-3xl'
                             />
                             <aside className='space-y-2'>
                                 <h3 className='mt-3 text-xl font-semibold lg:mt-0 lg:text-3xl'>
-                                    Anjuran Puasa di Bulan Muharram
+                                    Cara Tepat Mencukur Bulu Ketiak yang Aman
                                 </h3>
                                 <div className='flex space-x-5 font-secondary'>
                                     <div className='flex space-x-1 '>
                                         <img src='/svg/photo-blog.svg' />
                                         <p className='text-gray-500 mt-0.5'>
-                                            Lala
+                                            Regita
                                         </p>
                                     </div>
                                     <div className='flex w-full space-x-1'>
@@ -45,58 +45,22 @@ export default function glowup() {
                                             src='/svg/calender-blog.svg'
                                         />
                                         <p className='text-gray-500 mt-0.5'>
-                                            October 11, 2020
+                                            August 8, 2021
                                         </p>
                                     </div>
                                 </div>
                                 <p className='text-gray-500 font-secondary'>
-                                    Alhamdulillah segala puji bagi Allah
-                                    subhanahu wa ta’ala yang telah mencurahkan
-                                    rahmatnya dengan sebegitu banyaknya sehingga
-                                    tidak akan pernah kita mampu mensyukuri
-                                    semua nikmat-Nya. Sholawat serta salam
-                                    selalu tercurah kpd Rasulullah sholallahu
-                                    ’alayhi wa sallam ...
+                                    Mencukur dengan pisau tumpul dan tidak
+                                    menggunakan dapat menyebabkan rambut ketiak
+                                    tumbuh ke dalam iritasi, kulit ketiak
+                                    terluka, bahkan iritasi kulit dan membuat
+                                    ketiak menghitam...
                                 </p>
                             </aside>
                         </div>
                     </a>
                 </Link>
                 <hr className='border-2 rounded-lg' />
-                <div className='flex flex-col px-5 lg:px-0 lg:space-x-10 lg:flex-row'>
-                    <img
-                        src='/png/main-photo.png'
-                        className='rounded-3xl h-[235px]'
-                    />
-                    <aside className='space-y-2'>
-                        <h3 className='mt-3 text-xl font-semibold lg:mt-0 lg:text-3xl'>
-                            Anjuran Puasa di Bulan Muharram
-                        </h3>
-                        <div className='flex space-x-5 font-secondary'>
-                            <div className='flex space-x-1 '>
-                                <img src='/svg/photo-blog.svg' />
-                                <p className='text-gray-500 mt-0.5'>Lala</p>
-                            </div>
-                            <div className='flex w-full space-x-1'>
-                                <img
-                                    className='self-center w-5'
-                                    src='/svg/calender-blog.svg'
-                                />
-                                <p className='text-gray-500 mt-0.5'>
-                                    October 11, 2020
-                                </p>
-                            </div>
-                        </div>
-                        <p className='text-gray-500 font-secondary'>
-                            Alhamdulillah segala puji bagi Allah subhanahu wa
-                            ta’ala yang telah mencurahkan rahmatnya dengan
-                            sebegitu banyaknya sehingga tidak akan pernah kita
-                            mampu mensyukuri semua nikmat-Nya. Sholawat serta
-                            salam selalu tercurah kpd Rasulullah sholallahu
-                            ’alayhi wa sallam ...
-                        </p>
-                    </aside>
-                </div>
             </section>
             <Footer />
         </div>

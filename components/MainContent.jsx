@@ -3,6 +3,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
+import Link from 'next/link';
 
 const LeftButton = ({ currentSlide, slideCount, onClick, ...props }) => (
     <button
@@ -64,20 +65,14 @@ export default function MainContent() {
                                         {e.title}
                                     </h1>
                                     <p className='max-w-md mt-2 text-center text-gray-500 font-secondary lg:text-left'>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Risus cras ut
-                                        pellentesque nisi phasellus leo non
-                                        lorem magna. Et maecenas bibendum
-                                        consectetur pretium id feugiat donec at
-                                        ...
+                                        {e.desc}
                                     </p>
                                     <div className='flex justify-center py-2 lg:justify-start'>
-                                        <button
-                                            type='button'
-                                            className='inline-flex  items-center w-[150px] px-9 py-2 mt-8  text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
-                                        >
-                                            Read More
-                                        </button>{' '}
+                                        <Link href={e.href}>
+                                            <a className='inline-flex  items-center w-[150px] px-9 py-2 mt-8  text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'>
+                                                Read More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -92,12 +87,16 @@ export default function MainContent() {
 const sliderContent = [
     {
         id: 1,
-        image: 'png/main-photo.png',
-        title: 'Penanganan Alzheimer',
+        image: 'png/banner/glowup-1.png',
+        title: 'Cara Tepat Mencukur Bulu Ketiak yang Aman',
+        desc: 'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit ketiak terluka, bahkan iritasi kulit dan membuat ketiak menghitam. Maka dari itu ada beberapa hal yang perlu diperhatikan dalam mencukur ketiak agar...',
+        href: '/glowup/cara-tepat-mencukur-bulu-ketiak-yang-aman',
     },
     {
         id: 2,
-        image: 'png/main-photo.png',
-        title: 'Penanganan Penyakit Mental',
+        image: 'png/banner/healthzone-1.png',
+        title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
+        desc: 'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari.',
+        href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
     },
 ];

@@ -1,47 +1,23 @@
 const posts = [
     {
-        title: 'Boost your conversion rate',
-        href: '#',
-        category: { name: 'Article', href: '#' },
+        title: 'Cara Tepat Mencukur Bulu Ketiak yang Aman',
+        href: '/glowup/cara-tepat-mencukur-bulu-ketiak-yang-aman',
         description:
-            'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        imageUrl: '/png/product-foto.png',
-        readingTime: '6 min',
-        author: {
-            name: 'Roel Aufderehar',
-            href: '#',
-            imageUrl:
-                'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+            'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit ketiak terluka, bahkan iritasi kulit dan membuat ketiak menghitam. Maka dari itu ada beberapa hal yang perlu diperhatikan dalam mencukur ketiak agar...',
+        imageUrl: 'png/banner/glowup-1.png',
     },
     {
-        title: 'How to use search engine optimization to drive sales',
-        href: '#',
-        category: { name: 'Video', href: '#' },
+        title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
+        href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
         description:
-            'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
-        date: 'Mar 10, 2020',
-        datetime: '2020-03-10',
-        imageUrl: '/png/product-foto.png',
-
-        readingTime: '4 min',
-        author: {
-            name: 'Brenna Goyette',
-            href: '#',
-            imageUrl:
-                'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+            'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari.',
+        imageUrl: 'png/banner/healthzone-1.png',
     },
     {
         title: 'Improve your customer experience',
-        href: '#',
-        category: { name: 'Case Study', href: '#' },
+        href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
         description:
             'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
-        date: 'Feb 12, 2020',
-        datetime: '2020-02-12',
         imageUrl: '/png/product-foto.png',
 
         readingTime: '11 min',
