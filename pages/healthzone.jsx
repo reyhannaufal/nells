@@ -5,6 +5,18 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Seo from '../components/Seo';
 
+const content = [
+    {
+        id: 1,
+        href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
+        title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
+        author: 'Regita',
+        date: 'August 8, 2021',
+        desc: ' Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensi Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang...',
+        img: '/png/healthzone-1.png',
+    },
+];
+
 export default function healthzone() {
     return (
         <div>
@@ -30,46 +42,48 @@ export default function healthzone() {
                 </div>
             </header>
             <section className='max-w-sm mx-auto space-y-5 pb-28 lg:max-w-4xl'>
-                <Link href='/healthzone/cara-mendeteksi-dini-penyakit-alzheimer'>
-                    <a className=''>
-                        <div className='flex flex-col px-5 py-5 hover:text-gray-600 lg:px-0 lg:space-x-10 lg:flex-row'>
-                            <img
-                                src='/png/healthzone-1.png'
-                                className='w-1/3 h-full border rounded-3xl'
-                            />
-                            <aside className='space-y-2'>
-                                <h3 className='mt-3 text-xl font-semibold lg:mt-0 lg:text-3xl'>
-                                    Cara Mendeteksi Dini Penyakit Alzhimer
-                                </h3>
-                                <div className='flex space-x-5 font-secondary'>
-                                    <div className='flex space-x-1 '>
-                                        <img src='/svg/photo-blog.svg' />
-                                        <p className='text-gray-500 mt-0.5'>
-                                            Regita
-                                        </p>
-                                    </div>
-                                    <div className='flex w-full space-x-1'>
+                {content.map((item) => (
+                    <div key={item.id}>
+                        <div className='mb-4'>
+                            <Link href={item.href}>
+                                <a>
+                                    <div className='flex flex-col px-5 hover:text-gray-600 lg:px-0 lg:space-x-10 lg:flex-row'>
                                         <img
-                                            className='self-center w-5'
-                                            src='/svg/calender-blog.svg'
+                                            src={item.img}
+                                            className='w-full h-full lg:w-1/3 rounded-3xl'
                                         />
-                                        <p className='text-gray-500 mt-0.5'>
-                                            August 8, 2021
-                                        </p>
+                                        <aside className='space-y-2'>
+                                            <h3 className='mt-3 text-xl font-semibold lg:mt-0 lg:text-3xl'>
+                                                {item.title}
+                                            </h3>
+                                            <div className='flex space-x-10 font-secondary'>
+                                                <div className='flex space-x-1 '>
+                                                    <img src='/svg/photo-blog.svg' />
+                                                    <p className='text-gray-500 mt-0.5'>
+                                                        {item.author}
+                                                    </p>
+                                                </div>
+                                                <div className='flex w-full space-x-1'>
+                                                    <img
+                                                        className='self-center w-5'
+                                                        src='/svg/calender-blog.svg'
+                                                    />
+                                                    <p className='text-gray-500 mt-0.5'>
+                                                        {item.date}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p className='text-gray-500 font-secondary'>
+                                                {item.desc}
+                                            </p>
+                                        </aside>
                                     </div>
-                                </div>
-                                <p className='text-gray-500 font-secondary'>
-                                    Penyakit Alzheimer adalah penyakit
-                                    degeneratif otak dan penyebab paling umum
-                                    dari demensi Hal ini ditandai dengan
-                                    penurunan memori, bahasa, pemecahan masalah
-                                    dan keterampilan kognitif lainnya yang...
-                                </p>
-                            </aside>
+                                </a>
+                            </Link>
                         </div>
-                    </a>
-                </Link>
-                <hr className='border-2 rounded-lg' />
+                        <hr className='border-2 rounded-lg ' />
+                    </div>
+                ))}
             </section>
             <Footer />
         </div>

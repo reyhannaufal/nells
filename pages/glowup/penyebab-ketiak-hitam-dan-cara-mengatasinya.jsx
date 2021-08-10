@@ -2,14 +2,14 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Seo from '../../components/Seo';
 
-export default function healthzone_1() {
+export default function glowup_2() {
     return (
         <main>
             <Seo title='Nells | Blog Post' />
             <Header />
             <section className='max-w-sm pt-10 pb-20 mx-auto xl:px-0 px-7 lg:max-w-5xl'>
                 <h1 className='text-2xl font-semibold lg:text-3xl'>
-                    Cara Mendeteksi Dini Penyakit Alzhimer
+                    Penyebab Ketiak Hitam dan Cara Mengatasinya
                 </h1>
                 <div className='flex space-x-5 font-secondary'>
                     <div className='flex space-x-1 '>
@@ -25,50 +25,45 @@ export default function healthzone_1() {
                     </div>
                 </div>
                 <img
-                    src='/png/healthzone-1.png'
-                    className='w-full mt-5 rounded-3xl h-'
+                    src='/png/glowup-1.png'
+                    className='w-full mt-5 rounded-3xl'
                 />
-                <div className='px-4 mt-10 text-base font-normal lg:px-0 space-y-7 font-secondary'>
+                <div className='mt-10 text-base font-normal space-y-7 font-secondary'>
                     <p className='first-letter:font-semibold first-letter:text-xl'>
-                        Penyakit Alzheimer adalah penyakit degeneratif otak dan
-                        penyebab paling umum dari demensia. Hal ini ditandai
-                        dengan penurunan memori, bahasa, pemecahan masalah dan
-                        keterampilan kognitif lainnya yang mempengaruhi
-                        kemampuan seseorang untuk melakukan kegiatan
-                        sehari-hari. Penurunan ini terjadi karena sel-sel saraf
-                        (neuron) di bagian otak yang terlibat dalam fungsi
-                        kognitif telah rusak dan tidak lagi berfungsi normal.
-                    </p>
-                    <p>
-                        Salah satu titik kritis pada penanganan Alzheimer adalah
-                        saat mendeteksi gejala yang muncul. Adapun beberapa
-                        kerusakan otak yang terjadi dapat bersifat permanen
-                        maupun dapat dikembalikan, dan deteksi dini dapat
-                        menjadi salah satu faktor penentu gangguan mana yang
-                        dimiliki seseorang. Penanganan dini dapat mengembalikan
-                        beberapa fungsi kognitifnya atau setidaknya memperlambat
-                        jalannya progres gangguan. Oleh karena itu penting untuk
-                        mengenali gejala awal Alzheimer. Deteksi awal penyakit
-                        Alzheimer dapat dilakukan dengan melihat beberapa gejala
-                        berikut ini:
+                        Mencukur dengan pisau tumpul dan tidak menggunakan dapat
+                        menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit
+                        ketiak terluka, bahkan iritasi kulit dan membuat ketiak
+                        menghitam. Maka dari itu ada beberapa hal yang perlu
+                        diperhatikan dalam mencukur ketiak agar terhindar dari
+                        permasalahan tersebut. Berikut cara tepat mencukur bulu
+                        ketiak:
                         <ul className='mt-2 ml-8 list-decimal'>
-                            <li>Lupa kejadian sehari-hari</li>
-                            <li>Menurunnya kemampuan menyelesaikan masalah</li>
-                            <li>Disorientasi waktu dan tempat</li>
-                            <li>Perubahan perilaku</li>
-                            <li>Kesulitan dalam mengucapkan sesuatu</li>
+                            <li>
+                                Sebelum nencukur bulu ketiak gunakan krim/ gel
+                                cukur dan pastikan kondisi kulit ketiak lembab
+                                dan bersih.
+                            </li>
+                            <li>
+                                Gunakan pisau cukur yang tajam dan berkualitas
+                                baik.{' '}
+                            </li>
+                            <li>
+                                Cukur dari arah tumbuh rambut, lalu cukur
+                                kembali dari arah yang berlawanan.
+                            </li>
+                            <li>Setelah mencukur alat harus dibersihkan.</li>
                         </ul>
                     </p>
-
                     <p>
-                        Selain melihat gejala-gejala di atas deteksi awal
-                        Alzheimer dapat dilakukan melalui wawancara dan beberapa
-                        pemeriksaan. Pemeriksaan yang dilakukan adalah untuk
-                        menilai kemampuan mengingat, perubahan sikap, derajat
-                        gangguan ingatan yang terjadi, hingga penyebab dari
-                        keluhan. Pemeriksaan yang sampai saat ini sudah terbukti
-                        akurat hingga 84 persen adalah menggunakan MRI (Magnetic
-                        Resonance Imaging).
+                        Kulit ketiak yang habis dicukur akan semakin kering
+                        sehingga lebih rentan terhadap iritasi. Karena itu,
+                        jangan lupa untuk menggunakan deodoran NELL’S. NELL’S
+                        memiliki kandungan VCO yang dapat melembabkan kulit
+                        ketiak dan terdapat senyawa geraniol sebagai
+                        anttinflamasi untuk merawat kulit ketiak setelah
+                        pencukuran. Selain itu NELL’S bebas (tidak mengandung)
+                        dari aluminium yang dapat menyebabkan iritasi dan
+                        menghitamkan kulit ketiak.
                     </p>
                 </div>
             </section>

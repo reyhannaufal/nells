@@ -1,17 +1,19 @@
+import Link from 'next/link';
+
 const posts = [
     {
         title: 'Cara Tepat Mencukur Bulu Ketiak yang Aman',
         href: '/glowup/cara-tepat-mencukur-bulu-ketiak-yang-aman',
         description:
             'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit ketiak terluka, bahkan iritasi kulit dan membuat ketiak menghitam. Maka dari itu ada beberapa hal yang perlu diperhatikan dalam mencukur ketiak agar...',
-        imageUrl: 'png/banner/glowup-1.png',
+        imageUrl: 'png/glowup-1.png',
     },
     {
         title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
         href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
         description:
             'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari.',
-        imageUrl: 'png/banner/healthzone-1.png',
+        imageUrl: 'png/healthzone-1.png',
     },
     {
         title: 'Improve your customer experience',
@@ -57,21 +59,22 @@ export default function FeaturedPost() {
                             </div>
                             <div className='flex flex-col justify-between flex-1 p-6 bg-white'>
                                 <div className='flex-1'>
-                                    <a href={post.href} className='block mt-2'>
-                                        <p className='text-xl font-semibold text-gray-900'>
-                                            {post.title}
-                                        </p>
-                                        <p className='mt-3 text-base text-gray-500 font-secondary'>
-                                            {post.description}
-                                        </p>
-                                    </a>
+                                    <Link href={post.href}>
+                                        <a className='block mt-2'>
+                                            <p className='text-xl font-semibold text-gray-900'>
+                                                {post.title}
+                                            </p>
+                                            <p className='mt-3 text-base text-gray-500 font-secondary'>
+                                                {post.description}
+                                            </p>
+                                        </a>
+                                    </Link>
                                 </div>
-                                <button
-                                    type='button'
-                                    className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
-                                >
-                                    Read More
-                                </button>
+                                <Link href={post.href}>
+                                    <a className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'>
+                                        Read More
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     ))}

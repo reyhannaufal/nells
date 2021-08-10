@@ -20,8 +20,15 @@ export default function Product() {
                                     NELL'S Citronella Deodorant
                                 </p>
                                 <p className='mt-3 text-base text-gray-500'>
-                                    Kamu tahu gak sih, tubuh yang sehat dan
-                                    punya imun yang kuat lebih sulit ...
+                                    NELL’S Citronella Deodorant merupakan
+                                    deodoran alami berbahan dasar serai wangi
+                                    yang dikemas dalam tube berukuran 50ml.
+                                    Tersedia dalam bentuk krim yang mudah
+                                    menyerap serta lebih mudah diratakan
+                                    dibandingkan jenis deodoran lainnya.
+                                    Komposisinya bebas dari Aluminium
+                                    Chlorohydrate (ACH) dan paraben yang aman
+                                    untuk digunakan setiap hari.
                                 </p>
                             </a>
                         </div>

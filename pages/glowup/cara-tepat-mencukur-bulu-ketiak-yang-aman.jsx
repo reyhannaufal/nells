@@ -7,7 +7,7 @@ export default function glowup_1() {
         <main>
             <Seo title='Nells | Blog Post' />
             <Header />
-            <section className='max-w-sm pt-10 mx-auto xl:px-0 px-7 lg:max-w-5xl'>
+            <section className='max-w-sm pt-10 pb-20 mx-auto xl:px-0 px-7 lg:max-w-5xl'>
                 <h1 className='text-2xl font-semibold lg:text-3xl'>
                     Cara Tepat Mencukur Bulu Ketiak yang Aman
                 </h1>
@@ -67,7 +67,7 @@ export default function glowup_1() {
                     </p>
                 </div>
             </section>
-            <div className='flex lg:max-w-5xl lg:mx-auto flex-col lg:flex-row lg:justify-between bg-[#F5F5F5] px-5 py-6 mt-8  lg:rounded-3xl mb-20'>
+            {/* <div className='flex lg:max-w-5xl lg:mx-auto flex-col lg:flex-row lg:justify-between bg-[#F5F5F5] px-5 py-6 mt-8  lg:rounded-3xl mb-20'>
                 <div className='max-w-sm mx-auto'>
                     <p className='max-w-sm'>
                         Minal ‘Aidin Wal Faizin, Mohon Maaf Lahir dan Batin Saat
@@ -92,7 +92,7 @@ export default function glowup_1() {
                         Next Post
                     </button>
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </main>
     );
