@@ -12,7 +12,7 @@ const content = [
         title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
         author: 'Regita',
         date: 'August 8, 2021',
-        desc: ' Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensi Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang...',
+        desc: 'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari. Penurunan ini terjadi karena sel-sel saraf (neuron) di bagian otak yang terlibat dalam fungsi kognitif telah rusak dan tidak lagi berfungsi normal.',
         img: '/png/healthzone-1.png',
     },
 ];
@@ -50,7 +50,9 @@ export default function healthzone() {
                                     <div className='flex flex-col px-5 hover:text-gray-600 lg:px-0 lg:space-x-10 lg:flex-row'>
                                         <img
                                             src={item.img}
-                                            className='w-full h-full lg:w-1/3 rounded-3xl'
+                                            className='h-[160px] lg:h-[235px] w-[320px] lg:w-[235px] object-cover rounded-3xl'
+                                            width='235'
+                                            height='235'
                                         />
                                         <aside className='space-y-2'>
                                             <h3 className='mt-3 text-xl font-semibold lg:mt-0 lg:text-3xl'>

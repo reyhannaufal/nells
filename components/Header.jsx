@@ -43,7 +43,7 @@ export default function Header({ props }) {
         <Popover className='relative z-20 bg-white font-primary'>
             {({ open }) => (
                 <>
-                    <div className='mx-auto shadow-md  sm:px-6'>
+                    <div className='mx-auto shadow-md sm:px-6'>
                         <div className='flex flex-row-reverse items-center justify-between py-3 md:py-6 md:flex-row md md:justify-start md:space-x-10'>
                             <div className='flex justify-start w-7/12 lg:w-0 lg:flex-1'>
                                 <Link href='/'>

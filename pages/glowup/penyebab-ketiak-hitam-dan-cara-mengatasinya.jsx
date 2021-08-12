@@ -11,7 +11,7 @@ export default function glowup_2() {
                 <h1 className='text-2xl font-semibold lg:text-3xl'>
                     Penyebab Ketiak Hitam dan Cara Mengatasinya
                 </h1>
-                <div className='flex space-x-5 font-secondary'>
+                <div className='flex space-x-10 font-secondary'>
                     <div className='flex space-x-1 '>
                         <img src='/svg/profile-primary.svg' />
                         <p className='text-gray-500 mt-0.5'>Regita</p>
@@ -26,7 +26,9 @@ export default function glowup_2() {
                 </div>
                 <img
                     src='/png/glowup-1.png'
-                    className='w-full mt-5 rounded-3xl'
+                    width='1000'
+                    height='400'
+                    className='mt-5 rounded-3xl h-[160px] w-[320px] lg:w-[1000px] lg:h-[400px] object-cover'
                 />
                 <div className='mt-10 text-base font-normal space-y-7 font-secondary'>
                     <p className='first-letter:font-semibold first-letter:text-xl'>

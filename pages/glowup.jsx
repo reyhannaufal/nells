@@ -11,7 +11,7 @@ const content = [
         title: 'Cara Tepat Mencukur Bulu Ketiak yang Aman',
         author: 'Regita',
         date: 'August 8, 2021',
-        desc: 'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit ketiak terluka, bahkan iritasi kulit dan membuat ketiak menghitam...',
+        desc: 'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit ketiak terluka, bahkan iritasi kulit dan membuat ketiak menghitam. Maka dari itu ada beberapa hal yang perlu diperhatikan dalam mencukur ketiak agar terhindar dari permasalahan tersebut. Berikut cara tepat mencukur bulu ketiak',
         img: '/png/glowup-1.png',
     },
     {
@@ -50,7 +50,9 @@ export default function glowup() {
                                     <div className='flex flex-col px-5 hover:text-gray-600 lg:px-0 lg:space-x-10 lg:flex-row'>
                                         <img
                                             src={item.img}
-                                            className='w-full h-full lg:w-1/3 rounded-3xl'
+                                            width='235'
+                                            height='235'
+                                            className='h-[160px] lg:h-[235px] w-[320px] lg:w-[235px] object-cover rounded-3xl'
                                         />
                                         <aside className='space-y-2'>
                                             <h3 className='mt-3 text-xl font-semibold lg:mt-0 lg:text-3xl'>

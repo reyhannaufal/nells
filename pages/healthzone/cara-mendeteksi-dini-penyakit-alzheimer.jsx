@@ -11,7 +11,7 @@ export default function healthzone_1() {
                 <h1 className='text-2xl font-semibold lg:text-3xl'>
                     Cara Mendeteksi Dini Penyakit Alzhimer
                 </h1>
-                <div className='flex space-x-5 font-secondary'>
+                <div className='flex space-x-10 font-secondary'>
                     <div className='flex space-x-1 '>
                         <img src='/svg/profile-primary.svg' />
                         <p className='text-gray-500 mt-0.5'>Regita</p>
@@ -26,7 +26,9 @@ export default function healthzone_1() {
                 </div>
                 <img
                     src='/png/healthzone-1.png'
-                    className='w-full mt-5 rounded-3xl h-'
+                    width='1000'
+                    height='400'
+                    className='mt-5 rounded-3xl h-[160px] w-[320px] lg:w-[1000px] lg:h-[400px] object-cover'
                 />
                 <div className='px-4 mt-10 text-base font-normal lg:px-0 space-y-7 font-secondary'>
                     <p className='first-letter:font-semibold first-letter:text-xl'>
