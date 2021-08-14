@@ -1,6 +1,7 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Image from 'next/image';
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 import Link from 'next/link';
@@ -55,11 +56,19 @@ export default function MainContent() {
                     {sliderContent.map((e) => (
                         <div key={e.id}>
                             <div className='flex flex-col max-w-xs mx-auto sm:max-w-xl lg:flex-row lg:space-x-32 lg:max-w-4xl'>
-                                <img
-                                    src={e.image}
-                                    className='w-[200px] mx-auto lg:mx-0 h-[200px] lg:h-auto lg:w-auto rounded-3xl'
-                                    alt={e.title}
-                                />
+                                <div>
+                                    <div className='w-[200px] mx-auto lg:mx-0 h-[200px] lg:h-[320px] lg:w-[320px] rounded-3xl '>
+                                        <Image
+                                            width={320}
+                                            height={320}
+                                            layout='intrinsic'
+                                            src={e.image}
+                                            alt={e.title}
+                                            placeholder='blur'
+                                            blurDataURL={e.image}
+                                        />
+                                    </div>
+                                </div>
                                 <div>
                                     <h1 className='mt-8 text-lg font-semibold text-center lg:text-left md:text-4xl'>
                                         {e.title}
@@ -87,16 +96,16 @@ export default function MainContent() {
 const sliderContent = [
     {
         id: 1,
-        image: 'png/banner/glowup-1.png',
+        image: '/png/banner/glowup-1.png',
         title: 'Cara Tepat Mencukur Bulu Ketiak yang Aman',
         desc: 'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit ketiak terluka, bahkan iritasi kulit dan membuat ketiak menghitam. Maka dari itu ada beberapa hal yang perlu diperhatikan dalam mencukur ketiak agar...',
         href: '/glowup/cara-tepat-mencukur-bulu-ketiak-yang-aman',
     },
     {
         id: 2,
-        image: 'png/banner/healthzone-1.png',
+        image: '/png/banner/healthzone-1.png',
         title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
-        desc: 'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari.',
+        desc: 'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan...',
         href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
     },
 ];

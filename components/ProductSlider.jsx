@@ -30,6 +30,8 @@ export default function ProductSlider() {
                             <Image
                                 height={320}
                                 width={320}
+                                placeholder='blur'
+                                blurDataURL={sliderImages[i].src}
                                 loading='lazy'
                                 src={`/png/PRODUCT-0${i + 1}.png`}
                                 alt='product-foto'
@@ -54,6 +56,8 @@ export default function ProductSlider() {
                 <>
                     <Image
                         key={image.src}
+                        placeholder='blur'
+                        blurDataURL={image.src}
                         height={320}
                         width={320}
                         loading='lazy'

@@ -14,6 +14,8 @@ export default function aboutus() {
                 height={509}
                 loading='lazy'
                 src='/png/cover-about.png'
+                placeholder='blur'
+                blurDataURL='/png/cover-about-blur.png'
                 alt='about-us banner'
                 layout='responsive'
                 className='mt-10'
