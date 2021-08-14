@@ -56,15 +56,18 @@ export default function MainContent() {
                     {sliderContent.map((e) => (
                         <div key={e.id}>
                             <div className='flex flex-col max-w-xs mx-auto sm:max-w-xl lg:flex-row lg:space-x-32 lg:max-w-4xl'>
-                                <div className='w-[200px] lg:pt-10 mx-auto lg:mx-0 h-[200px] lg:h-[320px] lg:w-[320px] rounded-3xl'>
-                                    <Image
-                                        width={320}
-                                        height={320}
-                                        src={e.image}
-                                        alt={e.title}
-                                        placeholder='blur'
-                                        blurDataURL={e.image}
-                                    />
+                                <div>
+                                    <div className='w-[200px] mx-auto lg:mx-0 h-[200px] lg:h-[320px] lg:w-[320px] rounded-3xl '>
+                                        <Image
+                                            width={320}
+                                            height={320}
+                                            layout='intrinsic'
+                                            src={e.image}
+                                            alt={e.title}
+                                            placeholder='blur'
+                                            blurDataURL={e.image}
+                                        />
+                                    </div>
                                 </div>
                                 <div>
                                     <h1 className='mt-8 text-lg font-semibold text-center lg:text-left md:text-4xl'>

@@ -17,19 +17,11 @@ const posts = [
         imageUrl: '/png/healthzone-1.png',
     },
     {
-        title: 'Improve your customer experience',
+        title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
         href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
         description:
-            'Kamu tahu gak sih, tubuh yang sehat dan punya imun yang kuat lebih sulit untuk terpapar penyakit lho! Tubuh ... ',
-        imageUrl: '/png/product-foto.png',
-
-        readingTime: '11 min',
-        author: {
-            name: 'Daniela Metz',
-            href: '#',
-            imageUrl:
-                'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+            'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari.',
+        imageUrl: '/png/healthzone-1.png',
     },
 ];
 
