@@ -25,7 +25,7 @@ export default function glowup_2() {
                     </div>
                 </div>
                 <img
-                    src='/png/glowup-1.png'
+                    src='/jpg/glowup-2.jpg'
                     width='1000'
                     height='400'
                     className='mt-5 rounded-3xl h-[160px] w-[320px] lg:w-[1000px] lg:h-[400px] object-cover'

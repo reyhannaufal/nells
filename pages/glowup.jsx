@@ -21,7 +21,7 @@ const content = [
         author: 'Regita',
         date: 'August 8, 2021',
         desc: 'Area ketiak sering kali tampak lebih gelap dari bagian tubuh lainnya. Hal tersebut karena area ketiak cenderung lebih lembab, serta memiliki kelenjar keringat dan pori-pori sehingga rentan mengalami masalah kulit, termasuk perubahan warna kulit menjadi gelap.',
-        img: '/png/glowup-1.png',
+        img: '/jpg/glowup-2.jpg',
     },
 ];
 
