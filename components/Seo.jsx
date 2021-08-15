@@ -15,7 +15,9 @@ export default function Seo(props) {
 
     return (
         <Head>
+            <Html lang='id' />
             <title>{meta.title}</title>
+
             <meta name='robots' content={meta.robots} />
             <meta content={meta.description} name='description' />
             <meta
@@ -58,7 +60,7 @@ export default function Seo(props) {
             )}
             <link
                 rel='canonical'
-                href={`https://nells.vercel.app/${router.asPath}`}
+                href={`https://nellsofficial.com//${router.asPath}`}
             />
             <link rel='icon' href='/favicon.png' />
             <link rel='preconnect' href='https://fonts.googleapis.com' />

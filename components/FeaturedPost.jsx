@@ -79,12 +79,11 @@ export default function FeaturedPost() {
                     ))}
                 </div>
                 <div className='flex justify-center'>
-                    <button
-                        type='button'
-                        className='inline-flex mt-10 items-center w-[321px] px-[130px] py-3  text-md font-medium bg-white border border-transparent rounded-2xl shadow-sm text-spurple md:px-[130px] hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'
-                    >
-                        See All
-                    </button>
+                    <Link href='/healthzone'>
+                        <a className='inline-flex mt-10 items-center w-[321px] px-[130px] py-3  text-md font-medium bg-white border border-transparent rounded-2xl shadow-sm text-spurple md:px-[130px] hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'>
+                            See All
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>
