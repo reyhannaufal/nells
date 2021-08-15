@@ -25,7 +25,7 @@ export default function Certificate() {
                     <iframe
                         title='Nells Certificate'
                         className='w-[321px] h-[455px] mx-auto'
-                        src={`https://drive.google.com/file/d/1hAgKzGj64TeVQNfxUY7-X2eRa7wNtxAb/preview`}
+                        // src='https://drive.google.com/file/d/1hAgKzGj64TeVQNfxUY7-X2eRa7wNtxAb/preview'
                     />
                 </div>
             </div>
