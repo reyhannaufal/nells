@@ -14,7 +14,6 @@ const LeftButton = ({ currentSlide, slideCount, onClick, ...props }) => (
         }
         aria-disabled={currentSlide === 0 ? true : false}
         aria-label='left-arrow'
-        aria-hidden='true'
         onClick={onClick}
     >
         <MdKeyboardArrowLeft className='text-4xl text-black ' />

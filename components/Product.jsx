@@ -33,12 +33,9 @@ export default function Product() {
                             </a>
                         </div>
                         <Link href='/product'>
-                            <button
-                                type='button'
-                                className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
-                            >
+                            <a className='inline-flex items-center w-[150px] px-9 py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm md:px-9 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'>
                                 Read More
-                            </button>
+                            </a>
                         </Link>
                     </div>
                 </div>

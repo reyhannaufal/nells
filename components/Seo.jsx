@@ -7,7 +7,7 @@ export default function Seo(props) {
         title: 'Nells | Embrace your Beauty by Caring for your Body',
         description:
             'Deodoran merupakan produk perawatan yang sering diandalkan untuk mengatasi masalah bau badan dan keringat berlebih. Namun, deodoran yang banyak beredar di pasaran mengandung zat kimia berupa Aluminium Chlorohydrate (ACH) yang berfungsi untuk mengendalikan keringat dengan cara menutup pori-pori. Hal ini berpotensi memberikan dampak buruk bagi kesehatan berupa penyakit kanker payudara dan alzheimer karena termasuk golongan aluminium yang tinggi kadar toksiknya.',
-        image: 'https://nells.vercel.com/png/colored-logo.png',
+        image: 'https://nellsofficial.com/png/colored-logo.png',
         type: 'website',
         robots: 'follow, index',
         ...props,
@@ -21,11 +21,11 @@ export default function Seo(props) {
             <meta content={meta.description} name='description' />
             <meta
                 property='og:url'
-                content={`https://nells.vercel.com/${router.asPath}`}
+                content={`https://nellsofficial.com/${router.asPath}`}
             />
             <link
                 rel='canonical'
-                href={`https://nells.vercel.com/${router.asPath}`}
+                href={`https://nellsofficial.com/${router.asPath}`}
             />
             {/* Open Graph */}
             <meta property='og:type' content={meta.type} />
@@ -59,7 +59,7 @@ export default function Seo(props) {
             )}
             <link
                 rel='canonical'
-                href={`https://nellsofficial.com//${router.asPath}`}
+                href={`https://nellsofficial.com/${router.asPath}`}
             />
             <link rel='icon' href='/favicon.png' />
             <link rel='preconnect' href='https://fonts.googleapis.com' />
