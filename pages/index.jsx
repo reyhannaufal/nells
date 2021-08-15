@@ -42,8 +42,8 @@ export default function Home() {
                             </h3>
                             <p className='mt-5 font-light text-center text-gray-500 lg:text-left font-secondary'>
                                 Ekstrak Serai Wangi, mencegah bau badan,
-                                mencegah kanker, memiliki efek relaksasi, dan
-                                mampu mencerahkan kulit ketiak.
+                                memiliki efek relaksasi, serta mengandung
+                                antioksidan dan antiinflamasi.
                             </p>
                         </div>
                     </div>
