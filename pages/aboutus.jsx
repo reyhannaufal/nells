@@ -15,7 +15,7 @@ export default function aboutus() {
                 loading='lazy'
                 src='/png/cover-about.png'
                 placeholder='blur'
-                blurDataURL='/png/cover-about-blur.png'
+                blurDataURL='/png/cover-about.png'
                 alt='about-us banner'
                 layout='responsive'
                 className='mt-10'
