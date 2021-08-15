@@ -7,6 +7,24 @@ import Seo from '../components/Seo';
 
 const content = [
     {
+        id: 3,
+        href: '/healthzone/pemeriksaan-secara-dini-kanker-payudara',
+        title: 'Pemeriksaan Secara Dini Kanker Payudara',
+        author: 'Regita',
+        date: 'August 15, 2021',
+        desc: 'Kanker payudara adalah tumor ganas yang menyerang jaringan payudara. Jaringan tersebut terdiri dari kelenjar susu (kelenjar pembuat air susu), saluran kelenjar (saluran air susu), dan jaringan penunjang payudara. Kanker payudara tidak menyerang kulit payudara yang berfungsi sebagai pembungkus. Kanker payudara menyebabkan sel dan jaringan payudara berubah bentuk menjadi abnormal dan bertambah banyak secara tidak terkendali.',
+        img: '/png/healthzone-3.png',
+    },
+    {
+        id: 2,
+        href: '/healthzone/mengenal-gejala-kanker-payudara',
+        title: '  Mengenal Gejala Kanker Payudara',
+        author: 'Regita',
+        date: 'August 15, 2021',
+        desc: 'Kanker payudara adalah tumor ganas yang menyerang jaringan payudara. Jaringan tersebut terdiri dari kelenjar susu (kelenjar pembuat air susu), saluran kelenjar (saluran air susu), dan jaringan penunjang payudara. Kanker payudara tidak menyerang kulit payudara yang berfungsi sebagai pembungkus. Kanker payudara menyebabkan sel dan jaringan payudara berubah bentuk menjadi abnormal dan bertambah banyak secara tidak terkendali.',
+        img: '/png/healthzone-2.png',
+    },
+    {
         id: 1,
         href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
         title: 'Cara Mendeteksi Dini Penyakit Alzhimer',

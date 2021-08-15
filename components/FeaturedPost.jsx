@@ -17,11 +17,11 @@ const posts = [
         imageUrl: '/png/healthzone-1.png',
     },
     {
-        title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
-        href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
+        title: 'Mengenal Gejala Kanker Payudara',
+        href: '/healthzone/mengenal-gejala-kanker-payudara',
         description:
-            'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari.',
-        imageUrl: '/png/healthzone-1.png',
+            'Kanker payudara adalah tumor ganas yang menyerang jaringan payudara. Jaringan tersebut terdiri dari kelenjar susu (kelenjar pembuat air susu), saluran kelenjar (saluran air susu), dan jaringan penunjang payudara. Kanker payudara tidak menyerang kulit payudara yang berfungsi sebagai pembungkus. ',
+        imageUrl: '/png/healthzone-2.png',
     },
 ];
 
