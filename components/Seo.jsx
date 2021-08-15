@@ -21,11 +21,11 @@ export default function Seo(props) {
             <meta content={meta.description} name='description' />
             <meta
                 property='og:url'
-                content={`https://nellsofficial.com/${router.asPath}`}
+                content={`https://nellsofficial.com${router.asPath}`}
             />
             <link
                 rel='canonical'
-                href={`https://nellsofficial.com/${router.asPath}`}
+                href={`https://nellsofficial.com${router.asPath}`}
             />
             {/* Open Graph */}
             <meta property='og:type' content={meta.type} />
@@ -59,7 +59,7 @@ export default function Seo(props) {
             )}
             <link
                 rel='canonical'
-                href={`https://nellsofficial.com/${router.asPath}`}
+                href={`https://nellsofficial.com${router.asPath}`}
             />
             <link rel='icon' href='/favicon.png' />
             <link rel='preconnect' href='https://fonts.googleapis.com' />
