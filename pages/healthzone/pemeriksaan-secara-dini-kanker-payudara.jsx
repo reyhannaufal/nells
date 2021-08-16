@@ -25,7 +25,7 @@ export default function healthzone_3() {
                     </div>
                 </div>
                 <img
-                    src='/png/healthzone-2.png'
+                    src='/png/healthzone-3.png'
                     width='1000'
                     height='400'
                     className='mt-5 rounded-3xl h-[160px] w-[320px] lg:w-[1000px] lg:h-[400px] object-cover'
