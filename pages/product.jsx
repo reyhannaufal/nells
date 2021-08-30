@@ -9,11 +9,18 @@ import Seo from '../components/Seo';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Link from 'next/link';
+
+const productLink = {
+    tokopedia:
+        'https://www.tokopedia.com/nellsofficial/nell-s-citronella-deodorant?utm_source=Android&utm_source=Android&utm_medium=Share&utm_medium=Share&utm_campaign=Product%20Share&utm_campaign=Product%20Share&_branch_match_id=899849089264484839',
+    shopee: 'https://shopee.co.id/product/465231396/7992336768?smtt=0.110584458-1630321594.9',
+};
 
 export default function product() {
     const [loading, setLoading] = useState(false);
 
-    const [link, setLink] = useState('https://www.bukalapak.com/');
+    const [link, setLink] = useState(productLink.shopee);
 
     return (
         <main className='overflow-hidden'>
@@ -43,7 +50,11 @@ export default function product() {
                                 src='/svg/stars.svg'
                                 alt='stars'
                             />
-                            <p>(0 reviews)</p>
+                            <Link href='https://shopee.co.id/buyer/465250973/rating'>
+                                <a className='hover:text-gray-600 hover:underline'>
+                                    (8 reviews)
+                                </a>
+                            </Link>
                         </div>
                         <h3 className='mt-5 text-lg font-normal font-secondary'>
                             Beli produk kami lewat:
@@ -54,23 +65,19 @@ export default function product() {
                         >
                             <div className='space-x-2 text-base font-secondary'>
                                 <input
-                                    checked={
-                                        link === 'https://www.bukalapak.com/'
-                                    }
+                                    checked={link === productLink.shopee}
                                     type='radio'
-                                    value='https://www.bukalapak.com/'
+                                    value={productLink.shopee}
                                     name='bukalapak'
                                     className='text-spurple'
                                 />
-                                <label>Bukalapak</label>
+                                <label>Shopee</label>
                             </div>
                             <div className='space-x-2 text-base font-secondary'>
                                 <input
-                                    checked={
-                                        link === 'https://www.tokopedia.com/'
-                                    }
+                                    checked={link === productLink.tokopedia}
                                     type='radio'
-                                    value='https://www.tokopedia.com/'
+                                    value={productLink.tokopedia}
                                     name='tokopedia'
                                     className='text-spurple '
                                 />
@@ -165,7 +172,7 @@ export default function product() {
                     Embrace your beauty by caring for your body!
                 </p>
             </section>
-            <TestimoniProd />
+            {/* <TestimoniProd /> */}
             <Footer />
             <style global jsx>
                 {`

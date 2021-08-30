@@ -93,9 +93,9 @@ export default function Home() {
                 </div>
             </section>
 
-            <Certificate />
+            {/* <Certificate />
 
-            <Testimonials />
+            <Testimonials /> */}
 
             {/* Contact our reseller section */}
             <section className='px-5 py-20 bg-pinkish md:px-0'>
