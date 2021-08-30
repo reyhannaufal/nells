@@ -24,9 +24,9 @@ export default function ProductSlider() {
     const settings = {
         customPaging: function (i) {
             return (
-                <div className='grid grid-col-4'>
+                <div>
                     <div>
-                        <a>
+                        <div>
                             <Image
                                 height={320}
                                 width={320}
@@ -36,7 +36,7 @@ export default function ProductSlider() {
                                 src={`/png/PRODUCT-0${i + 1}.png`}
                                 alt='product-foto'
                             />
-                        </a>
+                        </div>
                     </div>
                 </div>
             );
@@ -53,7 +53,7 @@ export default function ProductSlider() {
     return (
         <Slider {...settings}>
             {sliderImages.map((image) => (
-                <>
+                <div>
                     <Image
                         key={image.src}
                         placeholder='blur'
@@ -64,7 +64,7 @@ export default function ProductSlider() {
                         src={image.src}
                         alt={image.alt}
                     />
-                </>
+                </div>
             ))}
         </Slider>
     );

@@ -6,21 +6,21 @@ const posts = [
         title: 'Cara Tepat Mencukur Bulu Ketiak yang Aman',
         href: '/glowup/cara-tepat-mencukur-bulu-ketiak-yang-aman',
         description:
-            'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit ketiak terluka, bahkan iritasi kulit dan membuat ketiak menghitam. Maka dari itu ada beberapa hal yang perlu diperhatikan dalam mencukur ketiak agar...',
+            'Mencukur dengan pisau tumpul dan tidak menggunakan dapat menyebabkan rambut ketiak tumbuh ke dalam iritasi, kulit...',
         imageUrl: '/png/glowup-1.png',
     },
     {
         title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
         href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
         description:
-            'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari.',
+            'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan...',
         imageUrl: '/png/healthzone-1.png',
     },
     {
         title: 'Mengenal Gejala Kanker Payudara',
         href: '/healthzone/mengenal-gejala-kanker-payudara',
         description:
-            'Kanker payudara adalah tumor ganas yang menyerang jaringan payudara. Jaringan tersebut terdiri dari kelenjar susu (kelenjar pembuat air susu), saluran kelenjar (saluran air susu), dan jaringan penunjang payudara. Kanker payudara tidak menyerang kulit payudara yang berfungsi sebagai pembungkus. ',
+            'Kanker payudara adalah tumor ganas yang menyerang jaringan payudara. Jaringan tersebut terdiri dari kelenjar susu (kelenjar pembuat air susu), saluran kelenjar...',
         imageUrl: '/png/healthzone-2.png',
     },
 ];

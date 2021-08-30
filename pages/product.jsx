@@ -28,18 +28,10 @@ export default function product() {
             <Seo title='Nells | Product' />
             <section className='mx-auto max-w-7xl'>
                 <div className='flex flex-col mx-auto lg:flex-row'>
-                    <div
-                        className={`max-w-xs py-20 mx-auto lg:ml-20  ${
-                            loading ? 'lg:mr-36' : 'lg:mr-0'
-                        }`}
-                    >
-                        {loading ? (
-                            <div className='pt-20 lg:ml-28'></div>
-                        ) : (
-                            <ProductSlider />
-                        )}
+                    <div className='max-w-xs py-20 mx-auto lg:ml-20'>
+                        <ProductSlider />
                     </div>
-                    <aside className='lg:w-[50%] px-5 lg:pt-20 max-w-sm lg:max-w-none mx-auto lg:mx-24'>
+                    <aside className='lg:w-[50%] mt-5 md:mt-0 px-5 lg:pt-20 max-w-sm lg:max-w-none mx-auto lg:mx-24'>
                         <h1 className='text-2xl font-semibold lg:text-3xl font-primary'>
                             NELL'S Citronella Deodorant
                         </h1>
@@ -84,14 +76,9 @@ export default function product() {
                                 <label>Tokopedia</label>
                             </div>
                         </div>
-                        <button
-                            type='button'
-                            className='inline-flex items-center w-full lg:w-[150px] px-[120px] py-3 lg:py-2 mt-5 text-sm font-medium text-white border border-transparent rounded-full shadow-sm lg:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'
-                        >
-                            <a href={link} target='_blank'>
-                                Beli Sekarang
-                            </a>
-                        </button>
+                        <a className='inline-flex justify-center w-full py-3 mt-5 text-sm font-medium text-center text-white border border-transparent rounded-full shadow-sm lg:w-[180px] lg:py-2 lg:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'>
+                            Beli Sekarang
+                        </a>
                     </aside>
                 </div>
             </section>
@@ -177,17 +164,15 @@ export default function product() {
             <style global jsx>
                 {`
                     .slick-dots {
-                        width: 95%;
-                        bottom: -67px;
+                        display: grid !important;
+                        grid-template-columns: repeat(4, 1fr);
+                        column-gap: 10px;
                     }
 
                     .slick-dots li {
-                        position: relative;
-                        display: inline-block;
-                        width: 60px;
-                        margin: 2px 8px;
-                        padding: 0;
                         cursor: pointer;
+                        width: 100%;
+                        margin: 0;
                     }
                 `}
             </style>
