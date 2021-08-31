@@ -76,7 +76,7 @@ export default function product() {
                                 <label>Tokopedia</label>
                             </div>
                         </div>
-                        <a className='inline-flex justify-center w-full py-3 mt-5 text-sm font-medium text-center text-white border border-transparent rounded-full shadow-sm lg:w-[180px] lg:py-2 lg:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'>
+                        <a className='inline-flex justify-center w-full py-3 mt-5 text-sm font-medium text-center text-white border border-transparent rounded-full shadow-sm lg:w-[168px] lg:py-3 lg:px-7 bg-spurple hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-spurplehover'>
                             Beli Sekarang
                         </a>
                     </aside>

@@ -115,7 +115,7 @@ export default function aboutus() {
                                     href='https://wa.me/send/?phone=6281808010831'
                                     rel='nofollow noopener noreferrer'
                                     target='_blank'
-                                    className='inline-flex mt-10 items-center w-[321px] px-[115px] py-3  text-md font-medium bg-spurple border border-transparent rounded-2xl shadow-sm text-white md:px-[115px] hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'
+                                    className='inline-flex mt-10 items-center w-[405px]  py-3  text-md font-medium bg-spurple border border-transparent rounded-2xl shadow-sm text-white justify-center hover:bg-spurplehover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'
                                 >
                                     Contact Us
                                 </a>
