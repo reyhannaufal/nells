@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 const productLink = {
    tokopedia:
-      'https://www.tokopedia.com/nellsofficial/nell-s-citronella-deodorant?utm_source=Android&utm_source=Android&utm_medium=Share&utm_medium=Share&utm_campaign=Product%20Share&utm_campaign=Product%20Share&_branch_match_id=899849089264484839',
+      'https://www.tokopedia.com/nellsofficial/nell-s-citronella-deodorant',
    shopee:
       'https://shopee.co.id/product/465231396/7992336768?smtt=0.110584458-1630321594.9',
 };
