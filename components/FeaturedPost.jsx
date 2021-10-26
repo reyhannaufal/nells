@@ -10,7 +10,7 @@ const posts = [
       imageUrl: '/png/glowup-1.png',
    },
    {
-      title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
+      title: 'Cara Mendeteksi Dini Penyakit Alzheimer',
       href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
       description:
          'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan...',

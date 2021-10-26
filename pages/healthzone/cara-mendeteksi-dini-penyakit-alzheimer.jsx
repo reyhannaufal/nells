@@ -9,7 +9,7 @@ export default function healthzone_1() {
          <Header />
          <section className='max-w-sm pt-10 pb-20 mx-auto xl:px-0 px-7 lg:max-w-5xl'>
             <h1 className='text-2xl font-semibold lg:text-3xl'>
-               Cara Mendeteksi Dini Penyakit Alzhimer
+               Cara Mendeteksi Dini Penyakit Alzheimer
             </h1>
             <div className='flex space-x-10 font-secondary'>
                <div className='flex space-x-1 '>

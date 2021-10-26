@@ -27,7 +27,7 @@ const content = [
    {
       id: 1,
       href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
-      title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
+      title: 'Cara Mendeteksi Dini Penyakit Alzheimer',
       author: 'Regita',
       date: 'August 8, 2021',
       desc: 'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan sehari-hari. Penurunan ini terjadi karena sel-sel saraf (neuron) di bagian otak yang terlibat dalam fungsi kognitif telah rusak dan tidak lagi berfungsi normal.',

@@ -103,7 +103,7 @@ const sliderContent = [
    {
       id: 2,
       image: '/png/banner/healthzone-1.png',
-      title: 'Cara Mendeteksi Dini Penyakit Alzhimer',
+      title: 'Cara Mendeteksi Dini Penyakit Alzheimer',
       desc: 'Penyakit Alzheimer adalah penyakit degeneratif otak dan penyebab paling umum dari demensia. Hal ini ditandai dengan penurunan memori, bahasa, pemecahan masalah dan keterampilan kognitif lainnya yang mempengaruhi kemampuan seseorang untuk melakukan kegiatan...',
       href: '/healthzone/cara-mendeteksi-dini-penyakit-alzheimer',
    },
