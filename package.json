@@ -23,7 +23,7 @@
     "devDependencies": {
         "autoprefixer": "^10.3.2",
         "next-sitemap": "^1.6.162",
-        "postcss": "^8.3.5",
+        "postcss": "^8.3.11",
         "tailwindcss": "^2.2.7"
     }
 }
