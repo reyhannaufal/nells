@@ -1,6 +1,10 @@
 module.exports = {
-    i18n: {
-        locales: ['id'],
-        defaultLocale: 'id',
-    },
+   swcMinify: true,
+   i18n: {
+      locales: ['id'],
+      defaultLocale: 'id',
+   },
+   images: {
+      formats: ['image/avif', 'image/webp'],
+   },
 };
